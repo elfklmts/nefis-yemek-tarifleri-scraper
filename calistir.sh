@@ -21,7 +21,7 @@ push() {
   fi
 }
 
-( while true; do sleep "$INTERVAL"; push; done ) &
+( sleep 1200; push; while true; do sleep "$INTERVAL"; push; done ) &
 PUSHER=$!
 trap 'kill $PUSHER 2>/dev/null' EXIT
 
