@@ -1,12 +1,12 @@
 {
- "guncelleme_tarihi": "2026-11-22T23:06:23.658235+00:00",
- "toplam_tarif": 0,
+ "guncelleme_tarihi": "2026-11-22T23:42:41.876543+00:00",
+ "toplam_tarif": 137,
  "elenen_tarif": {},
  "kategoriler": {
   "corba-tarifleri": {
-   "tarif_sayisi": 0,
+   "tarif_sayisi": 137,
    "dosya_sayisi": 1,
-   "taranan_sayfa": 0,
+   "taranan_sayfa": 6,
    "toplam_sayfa": 1741
   }
  }

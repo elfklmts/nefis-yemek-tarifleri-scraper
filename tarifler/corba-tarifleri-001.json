@@ -2,6 +2,2512 @@
  "kaynak": "https://www.nefisyemektarifleri.com",
  "kategori": "corba-tarifleri",
  "parca": 1,
- "tarif_sayisi": 0,
- "tarifler": []
+ "tarif_sayisi": 137,
+ "tarifler": [
+  {
+   "isim": "Ezogelin Çorbası Yapılışı (Videolu)",
+   "malzemeler": [
+    "1 su bardağı kırmızı mercimek",
+    "1 tatlı kaşığı pirinç",
+    "1 tatlı kaşığı bulgur",
+    "2 çay kaşığı pul biber",
+    "1 yemek kaşığı nane",
+    "2 diş sarımsak",
+    "1 orta boy soğan",
+    "1 yemek kaşığı biber salçası",
+    "1 yemek kaşığı tereyağı",
+    "2 litreye yakın sıcak su",
+    "Tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/ezogelin-corbasi-yapilisi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Erişteli Yeşil Mercimek Çorbası (Videolu)",
+   "malzemeler": [
+    "1 su bardağı yeşil mercimek",
+    "1 su bardağı erişte",
+    "1 adet kuru soğan",
+    "1 yemek kaşığı salça",
+    "8 su bardağı et suyu",
+    "Tuz",
+    "Pul biber",
+    "Nane",
+    "Karabiber",
+    "Yarım çay bardağı sıvı yağ"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/eristeli-yesil-mercimek-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sütlü Domates Çorbası",
+   "malzemeler": [
+    "2 yemek kaşığı sıvı yağ",
+    "1 yemek kaşığı tereyağı",
+    "2 tepeleme yemek kaşığı un",
+    "1 yemek kaşığı domates salçası",
+    "5 adet domates",
+    "4 su bardağı su",
+    "Yarım su bardağı süt",
+    "1 silme tatlı kaşığı tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sutlu-domates-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Ezogelin Çorbası",
+   "malzemeler": [
+    "1 adet soğan",
+    "4 yemek kaşığı sıvı yağ",
+    "2 diş sarımsak",
+    "1 çay bardağı kırmızı mercimek",
+    "3 yemek kaşığı pirinç",
+    "3 yemek kaşığı bulgur",
+    "1 yemek kaşığı domates salçası",
+    "1 tatlı kaşığı nane",
+    "1 tatlı kaşığı pul biber",
+    "Tuz",
+    "7-8 su bardağı sıcak su (isterseniz et suyu veya tavuk suyu da kullanabilirsiniz)"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/ezogelin-corbasi-12662280/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Köfteli Arpa Şehriye Çorbası",
+   "malzemeler": [
+    "300 gram kıyma",
+    "1 küçük rendelenmiş soğan",
+    "Toz kırmızı biber",
+    "Karabiber",
+    "Tuz",
+    "1 küçük kapya biber",
+    "1 adet yeşil biber",
+    "1 çay bardağı rendelenmiş domates",
+    "1 yemek kaşığı tereyağı",
+    "1 yemek kaşığı salça",
+    "1,5 litre sıcak su",
+    "1 su bardağı arpa şehriye",
+    "Tuz",
+    "Karabiber",
+    "Toz kırmızı biber",
+    "Pul biber",
+    "Yarım limon suyu",
+    "Bir tutam ince kıyılmış maydanoz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kofteli-arpa-sehriye-corbasi-12645505/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Mercimek Çorbası",
+   "malzemeler": [
+    "1 su bardağı kırmızı mercimek",
+    "5 yemek kaşığı sıvı yağ",
+    "1 orta boy soğan",
+    "1 çay kaşığı kimyon",
+    "1 çay kaşığı zencefil",
+    "1 yemek kaşığı dolusu un",
+    "2 çay kaşığı tuz",
+    "8 su bardağı su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/mercimek-corbasi-12665473/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tek Tencere Pratik Yayla Çorbası (Videolu)",
+   "malzemeler": [
+    "1 büyük kase yoğurt",
+    "1 çay bardağı arpa şehriye",
+    "1 adet yumurta",
+    "1 yemek kaşığı un",
+    "Tuz",
+    "1-1,5 litre su(tercih ettiğiniz kıvama göre azaltıp çoğaltabiliriz)",
+    "Zeytinyağı",
+    "Kuru nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tek-tencere-pratik-yayla-corbasi-videolu/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Anne Usulü Naneli Yoğurt Çorba",
+   "malzemeler": [
+    "4 tepeleme yemek kaşığı yoğurt",
+    "1 yumurta",
+    "2 tepeleme yemek kaşığı un",
+    "1 tatlı kaşığı tuz",
+    "1+3 su bardağı soğuk su",
+    "2 kesme şeker büyüklüğünde tereyağ",
+    "1 tepeleme tatlı kaşığı kuru nane",
+    "Yarım çay kaşığı pul biber",
+    "Yarım çay kaşığı toz acı biber (çok acı tatları tercih etmiyorsanız hiç eklemeyebilirsiniz.)",
+    "1 çay kaşığı tatlı toz biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/anne-usulu-naneli-yogurt-corba/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sütlü Tarhana Çorbası",
+   "malzemeler": [
+    "3 yemek kaşığı tarhana",
+    "1 yemek kaşığı salça ( ister domates ister biber ister ikisi birlikte )",
+    "1 yemek kaşığı sıvı yağ",
+    "1 yemek kaşığı tereyağ",
+    "600 ml süt",
+    "600 ml tavuk suyu ( siz normal su kullanabilirsiniz )",
+    "Tuz",
+    "Nane",
+    "Zerdeçal",
+    "Toz biber",
+    "Pul biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sutlu-tarhana-corbasi-12661723/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Közlenmiş Sebze Çorbası",
+   "malzemeler": [
+    "2 adet kapya biber",
+    "2 adet domates",
+    "1 adet büyük soğan",
+    "1 yemek kaşığı domates salçası",
+    "2 yemek kaşığı sıvı yağ",
+    "4-5 su bardağı sıcak su",
+    "Tuz",
+    "Karabiber",
+    "Pul biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kozlenmis-sebze-corbasi-12664786/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Erişteli Yeşil Mercimek Çorbası (Videolu)",
+   "malzemeler": [
+    "1 kase yeşil mercimek",
+    "1 kaseden 2 parmak eksik erişte",
+    "1 adet soğan",
+    "2 diş sarımsak",
+    "1 tatlı kaşığı salça",
+    "1 yemek kaşığı kuru nane",
+    "1 çay kaşığı karabiber",
+    "1 çay kaşığı kırmızı toz biber",
+    "1 yemek kaşığı sumak ekşi sosu veya limon",
+    "Et suyu",
+    "Tuz",
+    "Su",
+    "Sıvıyağ"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/eristeli-yesil-mercimek-corbasi-videolu-12652456/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Süzme Mercimek Çorbası (Lokanta Usülü)",
+   "malzemeler": [
+    "1 su bardağı kırmızı mercimek",
+    "1 adet küçük soğan",
+    "1 diş sarımsak",
+    "1 adet küçük havuç",
+    "1 adet orta boy patates",
+    "1 yemek kaşığı tereyağ",
+    "1 yemek kaşığı sıvı yağ",
+    "1 çay kaşığı tuz",
+    "1,25 – 1,5 litre kaynar su",
+    "1 yemek kaşığı tereyağ",
+    "1 yemek kaşığı un",
+    "1 su bardağı su",
+    "1 çay kaşığı tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/suzme-mercimek-corbasi-lokanta-usulu-12666629/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Haluçka Çorbası",
+   "malzemeler": [
+    "2 su bardağı un",
+    "1 adet yumurta",
+    "Yarım çay bardağı su(yumurta boyutuna göre kontrollü ekleyin)",
+    "1 çay kaşığı tuz",
+    "1 adet haşlanmış tavuk göğsü",
+    "1 su bardağı haşlanmış nohut",
+    "1 yemek kaşığı domates salçası",
+    "3 yemek kaşığı sıvı yağ",
+    "4 su bardağı tavuk suyu",
+    "3 su bardağı sıcak su",
+    "Tuz",
+    "Karabiber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/halucka-corbasi-12666344/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Çeşmi Nigar Çorbası Tarifi",
+   "malzemeler": [
+    "1 adet kuru soğan",
+    "1 yemek kaşığı un",
+    "1 su bardağı kırmızı mercimek",
+    "Yarım çay bardağı zeytinyağı (60 ml)",
+    "1 tatlı kaşığı tuz",
+    "6 su bardağı su (1200 ml)",
+    "1 çay bardağı süt (125 ml)",
+    "1 adet yumurta sarısı",
+    "Yarım limon suyu",
+    "1 yemek kaşığı tereyağı",
+    "1 tatlı kaşığı kuru nane",
+    "1 tatlı kaşığı pul biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/cesmi-nigar-corbasi-tarifi-12666132/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Terbiyeli Tavuk Suyu Çorba",
+   "malzemeler": [
+    "2 parça kemiksiz tavuk but yada tavuk göğüs (haşlanıp didiklenmiş)",
+    "6 su bardağı tavuk suyu",
+    "4 diş sarımsak (rendelenmiş veya ince kıyılmış)",
+    "1 adet orta boy havuç (rendelenmiş)",
+    "1 yemek kaşığı tereyağı",
+    "1 yemek kaşığı zeytinyağı",
+    "Yarım çay kaşığı toz zencefil",
+    "Yarım çay kaşığı toz zerdeçal",
+    "Yarım çay kaşığı karabiber",
+    "Tuz (en son, terbiyeden sonra eklenecek)",
+    "Yarım çay bardağı tel veya arpa şehriye",
+    "1 adet yumurta sarısı",
+    "1,5 silme yemek kaşığı un",
+    "Yarım limonun suyu (veya 1 tam)",
+    "Yarım çay bardağı oda sıcaklığında su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/terbiyeli-tavuk-suyu-corba-12666069/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sütlü Havuç Çorbası",
+   "malzemeler": [
+    "5 tane orta boy havuç",
+    "2 yemek kaşığı un",
+    "1 yemek kaşığı tereyağı",
+    "Tarım çay bardağı sıvı yağ",
+    "5 su bardağı tavuk suyu",
+    "1 su bardağı süt",
+    "1 tatlı kaşığı tuz",
+    "1 tatlı kaşığı kuru nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sutlu-havuc-corbasi-12665321/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tavuklu Sebze Çorbası (Kış Çorbası)",
+   "malzemeler": [
+    "2 adet tavuk göğsü",
+    "1 adet havuç",
+    "1 adet kapya biber",
+    "2 adet domates",
+    "1 adet soğan",
+    "1 adet patates",
+    "3 diş sarımsak",
+    "1 dilim limon",
+    "2 yemek kaşığı zeytinyağı",
+    "5 su bardağı soğuk su",
+    "Tuz",
+    "Karabiber",
+    "Pul biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tavuklu-sebze-corbasi-kis-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kimyonlu Mercimek Çorbası",
+   "malzemeler": [
+    "1 su bardağı kırmızı mercimek",
+    "1 orta boy patates",
+    "Tuz",
+    "Kimyon",
+    "6 yemek kaşığı sıvı yağ",
+    "5 su bardağı sıcak su",
+    "1 su bardağı tavuk suyu"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kimyonlu-mercimek-corbasi-12665054/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Mercimek Çorbam",
+   "malzemeler": [
+    "1 adet soğan",
+    "1 adet havuç",
+    "1 adet patates",
+    "1 su bardağı kırmızı mercimek",
+    "Sıvı yağ",
+    "Sıcak su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/mercimek-corbam-12664871/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Terbiyeli Şehriye Çorbası | Tam Kıvamında ( Videolu )",
+   "malzemeler": [
+    "1 çay bardağı şehriye",
+    "2-3 yemek kaşığı sıvı yağ",
+    "5 su bardağı sıcak su",
+    "1/2 (yarım) yemek kaşığı salça",
+    "1 çay kaşığı tuz",
+    "1 su bardağı yoğurt",
+    "1 adet yumurta sarısı",
+    "1/4 (çeyrek) limonun suyu",
+    "1/2 (yarım) çay kaşığı karabiber ( silme )"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/terbiyeli-sehriye-corbasi-tam-kivaminda-videolu/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Havuçlu Erişteli Terbiye Corbasi",
+   "malzemeler": [
+    "2 adet orta boy havuç",
+    "2 yemek kaşığı tereyağı",
+    "3.4 yemek kaşığı zeytinyağı",
+    "1 yemek kaşığı un",
+    "1 çay bardağı erişte",
+    "7 su bardağı su (tabiki arttırabilirsiniz isteğe göre)",
+    "1 tatlı kaşığı nane",
+    "1 tatlı kaşığı tuz",
+    "İsteğe göre karabiber yada pul biber",
+    "4 yemek kaşığı yoğurt",
+    "1 yemek kaşığı un",
+    "1 tane yumurtanın sarısı",
+    "1 çay bardağı süt ( belki süt olmazsa evinizde yoğurt olabilir )",
+    "2 diş sarımsak",
+    "Tuz",
+    "Nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/havuclu-eristeli-terbiye-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kışın Vazgeçilmez Şifası Tarhana Çorbası",
+   "malzemeler": [
+    "500 gram yaş tarhana",
+    "1 adet soğan",
+    "1 yemek kaşığı sıvı yağ",
+    "1 çay kaşığı salça",
+    "1 çay kaşığı tuz",
+    "1 çay kaşığı pulbiber",
+    "1 tutam nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kisin-vazgecilmez-sifasi-tarhana-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Anne Usülü Mercimek Çorbası",
+   "malzemeler": [
+    "1 su bardağı kırmızı mercimek",
+    "1 adet kuru soğan",
+    "1,5 yemek kaşığı domates salçası",
+    "5 su bardağı sıcak su",
+    "1 su bardağı tavuk suyu",
+    "4 yemek kaşığı sıvı yağ",
+    "Tuz",
+    "Kimyon",
+    "Kekik"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/anne-usulu-mercimek-corbasi-12664086/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Cheddarlı Brokoli Çorbası",
+   "malzemeler": [
+    "Yarım brokoli",
+    "Yarım paket krema",
+    "1 adet havuç",
+    "1 adet orta-küçük boy soğan",
+    "2 diş sarımsak",
+    "1 yemek kaşığı un",
+    "Cheddar peyniri",
+    "Karabiber",
+    "Tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/cheddarli-brokoli-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tam Kıvamında Lokanta Usulü Mercimek Çorbası",
+   "malzemeler": [
+    "1 su bardağı kırmızı mercimek",
+    "1 küçük kuru soğan",
+    "1 yemek kaşığı un",
+    "1 yemek kaşığı salça",
+    "1 küçük patates",
+    "1 adet havuç",
+    "1 yemek kaşığı tereyağı",
+    "2 yemek kaşığı sıvı yağ",
+    "5 su bardağı sıcak su (veya tavuk suyu)",
+    "1 tatlı kaşığı tuz",
+    "Karabiber",
+    "Kimyon ( isteğe bağlı atabilirsiniz)",
+    "Kırmızı toz biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tam-kivaminda-lokanta-usulu-mercimek-corbasi-12663097/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sebzeli Tavuk Çorbası",
+   "malzemeler": [
+    "2 adet patates",
+    "2 adet havuç",
+    "1 kuru soğan",
+    "3 diş sarımsak",
+    "1 adet kapya biber",
+    "1 büyük boy domates",
+    "1 parça tavuk göğsü veya baget",
+    "1 çay kaşığı zerdeçal",
+    "1 çay kaşığı karabiber",
+    "1 çay kaşığı pul biber",
+    "1 tatlı kaşığı tuz",
+    "5 -6 bardak su",
+    "1 yemek kaşığı tereyağı",
+    "1 tatlı kaşığı nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sebzeli-tavuk-corbasi-12661795/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kıymalı Kuskus Çorbası",
+   "malzemeler": [
+    "100 gram kıyma",
+    "1 çay bardağı kuskus",
+    "3 yemek kaşığı zeytinyağı",
+    "6 su bardağı sıcak su",
+    "Tuz",
+    "3 yemek kaşığı yoğurt",
+    "2 yemek kaşığı un",
+    "1 yumurta sarısı",
+    "Tereyağı yada sıvı yağ",
+    "Kuru nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kiymali-kuskus-corbasi-12661775/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Nefis Etli Çorba",
+   "malzemeler": [
+    "250 gram kuşbaşı et",
+    "1/3 paket erişte",
+    "3,5 kase yoğurt",
+    "2 kaşık un",
+    "2 yumurta",
+    "Bir küçük soğan",
+    "1 diş sarımsak",
+    "Toz biber",
+    "Pul biber",
+    "Nane",
+    "Tereyağı"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/nefis-etli-corba/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "İlikli Kemik Suyu (Pratik Kullanım Ve Kolejen)",
+   "malzemeler": [
+    "5-6 adet kesilmiş halka halinde büyük bol ilikli kemik",
+    "8-9 bardak su",
+    "8 adet karton bardak"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/ilikli-kemik-suyu-pratik-kullanim-ve-kolejen/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Mercimek Çorbası",
+   "malzemeler": [
+    "1.5 su bardağı mercimek",
+    "1 adet soğan",
+    "3 diş sarımsak",
+    "1 tane havuç",
+    "1 tane patates",
+    "1 yemek kaşığı sıvı yağı",
+    "1 çay kaşığı pulbiber",
+    "1 çay kaşığı kırmızı tozbiber",
+    "1 yemek kaşığı salça",
+    "1 çay kaşığı tuz",
+    "1 tutam nane",
+    "Alabildiği kadar su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/mercimek-corbasi-12659902/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Yozgat Arabaşı",
+   "malzemeler": [
+    "2 yemek kaşığı un",
+    "2 yemek kaşığı salça",
+    "2 yemek kaşığı tereyağ",
+    "6 su bardağı un",
+    "1 yarım haşlanmış tavuk",
+    "Tuz",
+    "2 su bardağı su",
+    "10 yemek kaşığı un",
+    "3 su bardağı su",
+    "3 çay kaşığı tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/yozgat-arabasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kremalı Mantar Çorbası",
+   "malzemeler": [
+    "400 gram mantar",
+    "1 adet orta boy havuç",
+    "1 su bardağı tavuk suyu",
+    "6 su bardağı su",
+    "3 yemek kaşığı zeytinyağı",
+    "1 su bardağı soğuk süt",
+    "100 gram krema",
+    "2 yemek kaşığı un",
+    "Karabiber",
+    "Tuz",
+    "1 tutam dereotu",
+    "1 yemek kaşığı tereyağı",
+    "Toz biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kremali-mantar-corbasi-12659496/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tavuklu Yalancı İşkembe Çorbası",
+   "malzemeler": [
+    "1 parça tavuk göğsü",
+    "1 çay bardağı yoğurt",
+    "1 adet limon suyu",
+    "2 yemek kaşığı un",
+    "2 yemek kaşığı tereyağı",
+    "2 yemek kaşığı sirke",
+    "3 diş sarımsak (dövülmüş)",
+    "1 adet yumurta",
+    "5 su bardağı su (haşlamak için)"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tavuklu-yalanci-iskembe-corbasi-12659009/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Yarmalı Yoğurt Çorbası (Enfes)",
+   "malzemeler": [
+    "1 adet yumurta",
+    "1 yemek kaşığı un",
+    "1 kase haşlanmış yarma (buğday)",
+    "1 kase süzme yoğurt",
+    "4 yemek kaşığı kadar nohut (dilerseniz koymaya bilirsiniz )",
+    "Göz kararı tuz",
+    "4 yada 4,5 kase kadar su",
+    "1,5 yemek kaşığı tereyağ",
+    "1 tatlı kaşığı nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/yarmali-yogurt-corbasi-enfes/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Soğan Çorbası",
+   "malzemeler": [
+    "2 adet soğan",
+    "3 diş sarımsak",
+    "2 yemek kaşığı un",
+    "3 yemek kaşığı sıvı yağ",
+    "4 bardak su",
+    "1 çay bardağı süt",
+    "4 dal dereotu",
+    "Tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sogan-corbasi-12658070/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Evelik Aşı (Videolu)",
+   "malzemeler": [
+    "Yarım bağ evelik aşı",
+    "10-15 tane kuru kayısı",
+    "1 tane patates",
+    "Yarım çay bardağı pirinç",
+    "1 su bardağı bardağı yeşil mercimek",
+    "1 adet kuru soğan",
+    "1 diş sarımsak",
+    "Yarım çay bardağı sıvı yağ",
+    "1 yemek kaşığı salça",
+    "1 yemek kaşığı tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/evelik-asi-videolu/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Lokanta Usulü Mercimek Çorbası",
+   "malzemeler": [
+    "1 orta boy havuç",
+    "1 orta boy soğan",
+    "1.5 su bardağı kırmızı mercimek",
+    "3 yemek kaşığı zeytinyağ",
+    "Üzerini 1 parmak geçecek sıcak su",
+    "1.5 çay kaşığı tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/lokanta-usulu-mercimek-corbasi-12656978/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Pazılı Mısır Unlu Çorba",
+   "malzemeler": [
+    "1.5 yemek kaşığı tereyağı",
+    "1 yemek kaşığı zeytinyağı",
+    "1 çay bardağı mısır unu",
+    "6 dal pazı",
+    "4 su bardağı sıcak su",
+    "1 su bardağı soğuk su",
+    "1 tane kuru soğan",
+    "2 diş sarımsak",
+    "1 çay kaşığı karabiber",
+    "1 su bardağı haşlanmış nohut",
+    "Tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/pazili-misir-unlu-corba/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Mercimek Çorbası",
+   "malzemeler": [
+    "1 adet patates",
+    "1 adet havuç",
+    "1 adet kuru soğan",
+    "Yarım su bardağı kırmızı mercimek",
+    "1 çay kaşığı kimyon",
+    "1 çay kaşığı zerdeçal",
+    "1 çay kaşığı tuz",
+    "5 su bardağı su",
+    "1 yemek kaşığı zeytinyağı"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/mercimek-corbasi-12656382/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Terbiyeli Arpa Şehriye Çorbası",
+   "malzemeler": [
+    "4 yemek kaşığı sıvı yağ",
+    "1 yemek kaşığı tereyağı",
+    "1 çay bardağı arpa şehriye",
+    "1 yemek kaşığı salça (yarısı domates, yarısı biber salçası)",
+    "1 çay kaşığı karabiber",
+    "1 çay kaşığı pul biber",
+    "1 çay kaşığı kırmızı toz biber",
+    "1 tatlı kaşığı tuz",
+    "1 diş sarımsak",
+    "1 litre su",
+    "3 yemek kaşığı yoğurt",
+    "1 yumurta sarısı",
+    "2 yemek kaşığı un",
+    "Tereyağı",
+    "Kuru nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/terbiyeli-arpa-sehriye-corbasi-12655684/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Köz Patlıcan Çorbası",
+   "malzemeler": [
+    "2 adet közlenmiş patlıcan",
+    "1 su bardağı soğuk süt",
+    "1 yemek kaşığı un",
+    "1 yemek kaşığı tereyağı",
+    "2 yemek kaşığı sıvı yağ",
+    "1 diş sarımsak",
+    "6 su bardağı sıcak su",
+    "Karabiber",
+    "1 tatlı kaşığı tuz",
+    "1 tatlı kaşığı tereyağı",
+    "1 çay kaşığı nane",
+    "1 çay kaşığı kırmızı toz biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/koz-patlican-corbasi-12655475/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Yoğurtlu Havuçlu Kabak Çorbası",
+   "malzemeler": [
+    "1 küçük boy yeşil kabak",
+    "1 küçük havuç",
+    "1 adet soğan",
+    "1 diş sarımsak",
+    "1 yemek kaşığı tereyağı",
+    "2 yemek kaşığı sıvı yağ",
+    "2 yemek kaşığı yoğurt",
+    "1 yemek kaşığı un",
+    "3-4 dal dereotu",
+    "1 tatlı kaşığı tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/yogurtlu-havuclu-kabak-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Köz Patlıcan Çorbası",
+   "malzemeler": [
+    "3 adet patlıcan",
+    "2 su bardağı süt",
+    "50gr terayağı",
+    "4su bardağı su",
+    "3 yemek kaşığı un",
+    "1 çay kaşığı karabiber",
+    "3 çay kaşığı tuz",
+    "2 diş sarımsak",
+    "50gr kaşar"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/koz-patlican-corbasi-12654782/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kıymalı Kavrulmuş Yıldız Şehriyeli Çorba",
+   "malzemeler": [
+    "1 küçük çay bardağı yıldız şehriye",
+    "150 gr dana kıyma",
+    "1 adet kuru soğan",
+    "1 tatlı kaşığı tereyağı",
+    "2 yemek kaşığı zeytinyağı",
+    "1 tatlı kaşığı biber salçası",
+    "1adet domatesin rendesi",
+    "1 tatlı kaşığı domates salçası",
+    "5 su bardağı su",
+    "1 çay kaşığı tuz",
+    "Yarım çay kaşığı karabiber",
+    "1 çay kaşığı toz tatlı biber kutu name",
+    "1 yemek kaşığı sıvı yağ"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kiymali-kavrulmus-yildiz-sehriyeli-corba-12654633/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Brokoli Çorbası",
+   "malzemeler": [
+    "Yarım kilo brokoli",
+    "1 adet patates",
+    "1 adet havuç",
+    "1 adet soğan",
+    "Üstünü geçecek kadar sıcak su",
+    "2 yemek kaşığı tereyağı",
+    "Yarım su bardağı yemeklik sıvı krema",
+    "2 su bardağı süt",
+    "1 yemek kaşığı un",
+    "Tuz",
+    "Karabiber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/brokoli-corbasi-12652978/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tavuklu Yoğurt Çorbası",
+   "malzemeler": [
+    "​2 adet tavuk butu",
+    "1 litre tavuk suyu (butların haşlama suyu)",
+    "​1,5 su bardağı yoğurt (ev yoğurdu kullanıyorum)",
+    "​2 yemek kaşığı tereyağı",
+    "​1 yemek kaşığı zeytinyağı",
+    "​2,5 yemek kaşığı un",
+    "​½ çay kaşığı zerdeçal",
+    "​½ çay kaşığı kimyon",
+    "​½ çay kaşığı karabiber",
+    "​½ çay kaşığı köri (opsiyonel)​",
+    "1 çay kaşığı tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tavuklu-yogurt-corbasi-12651124/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Lebeniye Çorbası",
+   "malzemeler": [
+    "Yarım kilo süzme yoğurt",
+    "1 su bardağı pirinç",
+    "Bir parça haşlanmış et veya tavuk",
+    "4 su bardağı kadar haşladığımız etin veya tavuğun suyu",
+    "Yarım çay bardağı zeytinyağı",
+    "1 fiske kuru nane",
+    "1 fiske tuz",
+    "1 adet yumurta"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/lebeniye-corbasi-12651980/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Yayla Çorbası",
+   "malzemeler": [
+    "1 çay bardağı pirinç",
+    "5 su bardağı kaynamış su",
+    "1/2 (yarım) tatlı kaşığı tuz",
+    "1 su bardağı yoğurt",
+    "1 yemek kaşığı un",
+    "1 yumurta sarısı",
+    "1 yemek kaşığı tereyağı",
+    "1 tatlı kaşığı nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/yayla-corbasi-12650952/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Şifa Deposu Tavuklu Kereviz Çorbası",
+   "malzemeler": [
+    "1 adet tavuk butu",
+    "Yarım kereviz",
+    "1 adet patates",
+    "1 adet havuç",
+    "1 adet kapya biber",
+    "1 adet soğan",
+    "2 diş sarımsak",
+    "1 yemek kaşığı tepeli un",
+    "Zeytinyağı",
+    "Tuz",
+    "Toz kırmızı biber",
+    "1 yemek kaşığı tereyağı",
+    "Nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sifa-deposu-tavuklu-kereviz-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Topalak Çorba",
+   "malzemeler": [
+    "1,5 su bardağı köftelik bulgur",
+    "Yarım su bardağı irmik",
+    "2 silme yemek kaşığı un",
+    "1 adet yumurta",
+    "1,5 su bardağı sıcak su",
+    "Tuz",
+    "Karabiber",
+    "Kırmızı toz biber",
+    "Kimyon",
+    "1 adet soğan",
+    "4 yemek kaşığı sıvı yağ",
+    "1 dolu yemek kaşığı domates salçası",
+    "1 su bardağı haşlanmış nohut",
+    "Tuz",
+    "Kuru nane",
+    "2 diş sarımsak",
+    "1 limon suyu"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/topalak-corba-12651250/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sebzeli Mercimek Çorbası (Püf Noktalarıyla)",
+   "malzemeler": [
+    "1 su bardağı kırmızı mercimek",
+    "1 küçük patates",
+    "1 büyük havuç (veya iki küçük havuç)",
+    "1 küçük soğan",
+    "1 diş sarımsak",
+    "Yarım kapya biber",
+    "1 yemek kaşığı salça",
+    "1 çay kaşığı kırmızı biber",
+    "Pul biber",
+    "1 çay kaşığı nane",
+    "Tercihen kurutulmuş kereviz yaprağı",
+    "1 silme yemek kaşığı tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sebzeli-mercimek-corbasi-puf-noktalariyla/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Yüksük Çorbası",
+   "malzemeler": [
+    "1 yemek kaşığı salça",
+    "4 diş sarımsak",
+    "1 adet tavuk blyon",
+    "1 paket hazır mantı",
+    "1 çay bardağı haşlanmış nohut",
+    "1 yemek kaşığı sıvı yağ",
+    "1 yemek kaşığı tereyağı",
+    "1 tatlı kaşığı tuz ve karabiber",
+    "Sıcak su",
+    "1 yemek kaşığı nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/yuksuk-corbasi-12648215/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Köfteli Arpa Şehriye Çorbası",
+   "malzemeler": [
+    "250–300 gram kıyma",
+    "1 orta boy soğan",
+    "Tuz",
+    "Karabiber",
+    "Kırmızı toz biber veya pul biber",
+    "1 orta boy kırmızı kapya biber",
+    "2 küçük yeşil biber",
+    "1 çay bardağı domates rendesi",
+    "1 yemek kaşığı tereyağı",
+    "1 yemek kaşığı salça",
+    "1,5 litre su",
+    "1 küçük su bardağı arpa şehriye",
+    "Tuz",
+    "Karabiber",
+    "Kırmızı toz biber",
+    "Yarım limonun suyu",
+    "İnce kıyılmış maydanoz veya kuru maydanoz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kofteli-arpa-sehriye-corbasi-12597138/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Soğan Çorbası",
+   "malzemeler": [
+    "1.5 litre kaynamış su",
+    "6 adet orta boy kelle soğan",
+    "1 türk kahvesi fincanı un",
+    "3 tatlı kaşığı tepeleme yunan usulü yoğurt (griekse stijl yoghurt) / veya 1 çay bardağı süt kreması (slagroom)",
+    "2 tatlı kaşığı tuz (veya 1.5; arzuya göre)",
+    "1.5 çay kaşığı tepeleme karabiber",
+    "1 yemek kaşığı tereyağ",
+    "2 yemek kaşığı zeytin yağı",
+    "1 orta boy patates",
+    "Rendelenmiş kaşar peynir",
+    "Baget ekmek veya herhangi bir ekmek"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sogan-corbasi-12647033/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kıymalı, Yeşil Mercimekli Erişteli Çorba",
+   "malzemeler": [
+    "1 su bardağı haslanmış yeşil mercimek",
+    "1 su bardağından 2 parmak erişte",
+    "1 adet kuru soğan",
+    "1 tatlı kaşığı biber salçası",
+    "5 yemek kaşığı zeytinyağı",
+    "2 çay kaşığı tuz",
+    "2çay kaşığı toz tatlı biber",
+    "Yarım çay kaşığı karabiber",
+    "5 su bardağı su",
+    "125 gram dana kıyma",
+    "2 yemek kaşığı sıvı yağ"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kiymali-yesil-mercimekli-eristeli-corba/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Arabaşı Çorbası",
+   "malzemeler": [
+    "1 adet bütün tavuk veya 2 tavuk budu",
+    "1 yemek kaşığı tereyağı",
+    "2 yemek kaşığı un",
+    "1 yemek kaşığı domates salçası",
+    "1 tatlı kaşığı biber salçası",
+    "7-8 su bardağı tavuk suyu",
+    "1 tatlı kaşığı pul biber",
+    "1 çay kaşığı karabiber",
+    "Tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/arabasi-corbasi-12646197/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Yeşil Mercimekli Kesme Çorba",
+   "malzemeler": [
+    "1 çay bardağı yeşil mercimek",
+    "1 su bardağı kesme makarna",
+    "1 adet kuru soğan",
+    "1 tatlı kaşığı biber salçası",
+    "1 tatlı kaşığı domates salçası",
+    "1 tatlı kaşığı reyhan veya nane",
+    "1 çay kaşığı tuz",
+    "2 kaşık sıvı yağı yada tereyağı",
+    "1.5 litre su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/yesil-mercimekli-kesme-corba-12645905/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Köz Patlıcan Çorbası",
+   "malzemeler": [
+    "3 adet orta boy patlıcan",
+    "1 yemek kaşığı tereyağı",
+    "2 yemek kaşığı sıvı yağ",
+    "1 yemek kaşığı un",
+    "1 diş sarımsak",
+    "4 su bardağı sıcak su",
+    "1 su bardağı süt",
+    "Tuz",
+    "Karabiber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/koz-patlican-corbasi-12645684/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tavuklu Sebze Çorbası",
+   "malzemeler": [
+    "3 parça tavuk göğsü",
+    "1 tane soğan",
+    "2 tane havuç",
+    "2 adet patates",
+    "2 adet domates",
+    "3 diş sarımsak",
+    "5 yemek kaşığı sıvı yağ",
+    "1 çay kaşığı toz biber",
+    "Yarım limon suyu",
+    "Tuz",
+    "Pulbiber",
+    "Maydanoz",
+    "Soğuk su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tavuklu-sebze-corbasi-12634696/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Dereotlu Sebze Çorbası",
+   "malzemeler": [
+    "1 adet kabak",
+    "1 adet patates",
+    "1 adet soğan",
+    "1 su bardağı bezelye",
+    "2 yemek kaşığı zeytinyağ",
+    "1 yemek kaşığı tereyağ",
+    "1 tatlı kaşığı tuz",
+    "1 çay kaşığı karabiber",
+    "4-5 dal dereotu",
+    "2 su bardağı et suyu",
+    "3 su bardağı su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/dereotlu-sebze-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Pratik Sebze Çorbası",
+   "malzemeler": [
+    "1 orta boy havuç",
+    "1 orta boy patates",
+    "1 orta boy soğan",
+    "1 orta boy domates",
+    "2 diş sarımsak",
+    "1,5 litre su",
+    "Yarım Türk fincanı sıvı yağ",
+    "Domates salçası",
+    "Yarım su bardağı şehriye",
+    "Tuz",
+    "Nane",
+    "Kekik",
+    "Tozbiber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/pratik-sebze-corbasi-12643690/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Nefis Ve İpeksi Bal Kabağı Çorbası",
+   "malzemeler": [
+    "​3 dilim bal kabağı",
+    "​1 adet orta boy patates",
+    "​1 adet orta boy havuç",
+    "​1 adet kuru soğan",
+    "​3 diş sarımsak",
+    "​3 yemek kaşığı sıvı yağ",
+    "​1 su bardağı et suyu (veya tavuk suyu)",
+    "​1 su bardağı süt",
+    "​1 litrenin üzerinde sıcak su (sebzelerin üzerini geçecek kadar)",
+    "​1 çay kaşığı tuz",
+    "​1 çay kaşığı karabiber",
+    "​½ çay kaşığı zerdeçal",
+    "1 yemek kaşığı krema",
+    "​1 tutam kabak çekirdeği içi"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/nefis-ve-ipeksi-bal-kabagi-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Arpa Şehriye Çorbası",
+   "malzemeler": [
+    "2 yemek kaşığı kavrulmuş az yağlı kıyma",
+    "1 çay bardağı arpa şehriye",
+    "1 yemek kaşığı domates yarım yemek kaşığı biber salçası ( biber salçası tercihe göre )",
+    "1 tatlı kaşığı tuz",
+    "4 çay bardağı su (et suyu tavuk suyu veya kaynamış su kullanabilirsiniz)",
+    "1 yemek kaşığı un"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/arpa-sehriye-corbasi-12642831/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Pratik Mercimek Çorbası",
+   "malzemeler": [
+    "1 su bardağı kırmızı mercimek",
+    "1 orta boy soğan",
+    "1 adet patates",
+    "1 adet havuç",
+    "4 su bardağı sıcak su",
+    "1 yemek kaşığı sıvı yağ",
+    "1 yemek kaşığı tereyağ",
+    "1 tatlı kaşığı tuz",
+    "1/2 (yarım) çay kaşığı kimyon",
+    "1/2 (yarım) çay kaşığı zerdeçal",
+    "1/4 (çeyrek) çay kaşığı karabiber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/pratik-mercimek-corbasi-12636025/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tarhana Çorbası",
+   "malzemeler": [
+    "3 yemek kaşığı tarhana",
+    "2 yemek kaşığı sıvı yağ",
+    "1 yemek kaşığı salça",
+    "Nane",
+    "Tuz",
+    "Karabiber",
+    "Pul biber",
+    "6 bardak sıcak su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tarhana-corbasi-12642591/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Yeşil Mercimekli Arpa Şehriye Çorbası (Şifa Çorbası)",
+   "malzemeler": [
+    "2 yemek kaşığı zeytinyağı",
+    "1 yemek kaşığı tereyağı",
+    "1 adet orta boy soğan",
+    "1 tatlı kaşığı domates salçası",
+    "1 tatlı kaşığı biber salçası",
+    "1 bardak ıslatılmış yeşil mercimek",
+    "Yarım bardak arpa şehriye",
+    "1 tatlı kaşığı reyhan (elde ufalayıp koyun)",
+    "2 çay kaşığı tuz",
+    "Çorbayı yapacağınız orta boy bir tencerenin yarısı kadar su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/yesil-mercimekli-arpa-sehriye-corbasi-sifa-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sebzeli Tavuk Çorbası (En Kolay Çorba)",
+   "malzemeler": [
+    "300 – 400 gram tavuk göğsü",
+    "1 adet havuç",
+    "1 adet kapya biber",
+    "2 adet domates",
+    "1 adet soğan",
+    "1 adet patates",
+    "3 diş sarımsak",
+    "1 dilim limon",
+    "1 adet defne yaprağı (isteğe bağlı)",
+    "4-5 yemek kaşığı sıvı yağ",
+    "5-6 su bardağı soğuk su",
+    "Tuz (yaklaşık 1 tatlı kaşığı. damak tadınıza göre ayarlayın)",
+    "Yarım çay kaşığı karabiber",
+    "Yarım çay kaşığı pul biber",
+    "1 tatlı kaşığı kırmızı tatlı toz biber",
+    "2 çay kaşığı kekik"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sebzeli-tavuk-corbasi-en-kolay-corba/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Mürdüm Erikli Domates Çorbası",
+   "malzemeler": [
+    "1 kg domates",
+    "5 büyük boy mürdüm eriği",
+    "1 yemek kaşığı biber salçası",
+    "1 yemek kaşığı tereyağı",
+    "2 büyük diş sarımsak",
+    "1 su bardağı kemik suyu",
+    "1 çay bardağı rendelenmiş kaşar peyniri",
+    "4 su bardağı kaynar su",
+    "1 çay kaşığı karabiber",
+    "Tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/murdum-erikli-domates-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Köfteli Şehriye Çorbası",
+   "malzemeler": [
+    "1,5 lt ılık su (6 su bardağı bardağı)",
+    "1 çay bardağından 1 parmak eksik şehriye",
+    "1 yemek kaşığı dolusu domates salçası",
+    "1 adet domates rendesi ( domates sosu da olur)",
+    "1 tatlı kaşığı un",
+    "1 yemek kaşığı tereyağ",
+    "1 yemek kaşığı sıvı yağ",
+    "1 çay kaşığı tuz",
+    "1/2 (yarım) çay kaşığı karabiber",
+    "Pul biber",
+    "1/2 (yarım) limon suyu ( isteğe bağlı)",
+    "200 gram kıyma",
+    "1 yemek kaşığı galeta unu",
+    "1/2 (yarım) çay kaşığı tuz",
+    "Kırmızı toz biber",
+    "Karabiber",
+    "Kimyon",
+    "2 yemek kaşığı sıvı yağ ( pişirmek için)"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kofteli-sehriye-corbasi-12640213/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sebzeli Tavuk Çorbası",
+   "malzemeler": [
+    "3-4 parça tavuk göğsü",
+    "1 adet soğan",
+    "2 adet havuç",
+    "2 adet patates",
+    "2 adet domates",
+    "2 diş sarımsak",
+    "4-5 yemek kaşığı zeytinyağı",
+    "1 tatlı kaşığı tuz",
+    "1 tatlı kaşığı zerdeçal",
+    "1 çay kaşığı karabiber",
+    "1 çay kaşığı pul biber",
+    "1,5 litre su",
+    "İsteğe bağlı yarım limon suyu",
+    "Maydanoz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sebzeli-tavuk-corbasi-12639940/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Yayla Çorbası",
+   "malzemeler": [
+    "2 dolu yemek kaşığı pirinç",
+    "4 su bardağı su",
+    "Tuz",
+    "1 büyük kase yoğurt",
+    "1 yumurta sarısı",
+    "1 tatlı kaşığı un",
+    "3 yemek kaşığı sıvı yağ",
+    "1 tatlı kaşığı kuru nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/yayla-corbasi-12632326/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Yoğurt Çorbası ( Pirinçli )",
+   "malzemeler": [
+    "5 yemek kaşığı pirinç",
+    "5 su bardağı sıcak su",
+    "1 adet yumurta sarısı",
+    "1 yemek kaşığı un",
+    "1 su bardağı yoğurt",
+    "1 çay kaşığı tuz",
+    "1 çay kaşığı kuru nane",
+    "1 çay kaşığı toz kırmızı biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/yogurt-corbasi-pirincli-12639033/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tam Kıvamında Lokanta Usulü Ezogelin Çorbası (Videolu)",
+   "malzemeler": [
+    "Yarım kırmızı mercimek (155 gram)",
+    "3/4 (bir yarım+bir çeyrek) çay bardağı bulgur (60 gram)",
+    "3/4 (bir yarım+bir çeyrek) çay bardağı pirinç (60 gram)",
+    "2 litre su",
+    "1 adet kuru soğan",
+    "1 diş dövülmüş sarımsak",
+    "Yarım kaşık domates salçası",
+    "Yarım kaşık biber salçası",
+    "Kuru nane",
+    "Pul biber",
+    "Tuz",
+    "Karabiber",
+    "2 yemek kaşığı zeytinyağı",
+    "Yarım yemek kaşığı tereyağı"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tam-kivaminda-lokanta-usulu-ezogelin-corbasi-videolu/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kremalı Mantar Çorbası",
+   "malzemeler": [
+    "400 gram mantar",
+    "1 paket krema( %35 yağlı)",
+    "2 yemek kaşığı tereyağı",
+    "3 yemek kaşığı un",
+    "1,5 litre su",
+    "Tuz",
+    "1 küçük kase konserve mısır",
+    "Karabiber",
+    "6-7 dal dereotu"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kremali-mantar-corbasi-12634595/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Mercimek Çorbası",
+   "malzemeler": [
+    "1 su bardağı kırmızı mercimek (200 ml)",
+    "3 yemek kaşığı sıvı yağ",
+    "1 orta boy soğan",
+    "1 tatlı kaşığı salça",
+    "1 tatlı kaşığı kırmızı tozbiber",
+    "5 su bardağı sıcak su",
+    "Tuz",
+    "1 adet tavuksuyu tablet",
+    "1 tatlı kaşığı nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/mercimek-corbasi-12634184/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Alman Tavuk Çorbası",
+   "malzemeler": [
+    "1 adet tavuk göğsü veya 2 tavuk butu",
+    "1 adet havuç",
+    "1 adet patates",
+    "1 küçük soğan",
+    "1 küçük kereviz sapı (isteğe bağlı)",
+    "1 çay bardağı küçük makarna / tortellini benzeri çorbalık makarna",
+    "1–1,5 yemek kaşığı tereyağı veya zeytinyağı",
+    "1,5–2 litre su veya tavuk suyu",
+    "Tuz",
+    "Karabiber",
+    "Biraz maydanoz",
+    "İsteğe göre az miktarda limon suyu"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/alman-tavuk-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Mercimek Çorbası",
+   "malzemeler": [
+    "1,5 su bardağı kırmızı mercimek",
+    "1 tane orta boy soğan",
+    "1 tane orta boy patates",
+    "1 tane orta boy havuç",
+    "1 tane küçük boy kapya biber",
+    "1 diş sarımsak",
+    "3 yemek kaşığı zeytinyağı",
+    "1 yemek kaşığı tereyağı",
+    "1 küp şeker",
+    "Yarım çay kaşığı karabiber",
+    "1 çay kaşığı pulbiber",
+    "1 çay kaşığı toz biber",
+    "Çay kaşığı ucuyla kimyon",
+    "Yarım çay kaşığı zerdeçal",
+    "1 tatlı kaşığı kekik",
+    "1 tatlı kaşığı tuz",
+    "1,5 litre sıcak su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/mercimek-corbasi-12633127/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tandır Çorbası",
+   "malzemeler": [
+    "700 gram pöç",
+    "3 adet defne yaprağı",
+    "6 su bardağı su (1 su bardağı pöçleri haşlamak için)",
+    "2 yemek kaşığı un",
+    "2 yemek kaşığı yoğurt",
+    "1 adet yumurta sarısı",
+    "Yarım limon suyu",
+    "Tuz",
+    "1 yemek kaşığı tereyağı",
+    "1 çay kaşığı kırmızı toz biber",
+    "1 çay kaşığı pul biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tandir-corbasi-12632059/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Türk Usulü Balkabağı Çorbası (Tatlı Olmayan Denge) (Videolu)",
+   "malzemeler": [
+    "300 gram balkabağı (kabuksuz, doğranmış) (butternut cinsi kullandım)",
+    "1 adet soğan (orta boy)",
+    "1 orta boy patates",
+    "2 diş sarımsak",
+    "Yarım çay bardağı sıvı yağ",
+    "1 yemek kaşığı tereyağı",
+    "Yarım çay kaşığı zerdeçal",
+    "1 talı kaşığı tuz",
+    "1 çay kaşığı karabiber",
+    "1 buçuk litre su",
+    "Yarım çay kaşığı kimyon"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/turk-usulu-balkabagi-corbasi-tatli-olmayan-denge-videolu/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tavuklu Arpa Şehriye Çorbası Tarifi",
+   "malzemeler": [
+    "1 adet orta boy tavuk göğsü veya but",
+    "1 adet küçük boy soğan",
+    "1 tatlı kaşığı tane karabiber",
+    "1 tatlı kaşığına yakın tuz",
+    "Tavuğun üzerini geçecek kadar su",
+    "1 adet orta boy kuru soğan",
+    "5–6 yemek kaşığı sıvı yağ",
+    "1,5 yemek kaşığı domates ve biber salçası karışımı",
+    "1 adet rendelenmiş domates",
+    "8 su bardağı tavuk suyu (eksik olursa sıcak su ilave edilebilir)",
+    "Didiklenmiş tavuk göğsü veya but",
+    "5 yemek kaşığı arpa şehriye",
+    "3-4 diş sarımsak",
+    "1–2 tatlı kaşığı kuru nane",
+    "1 tatlı kaşığı karabiber",
+    "1 tatlı kaşığı kırmızı toz biber",
+    "1 tatlı kaşığı tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tavuklu-arpa-sehriye-corbasi-tarifi-12631415/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Şehriyeli Kremalı Tavuk Çorbası",
+   "malzemeler": [
+    "Yarım tavuk göğsü",
+    "3 yemek kaşığı şehriye (tepeleme)",
+    "5 su bardağı su",
+    "Yağ",
+    "2 yemek kaşığı un (2 yemek kaşığı aynı aşamada kullanılmayacak ayrı yerlerde kullanılacak ve aşırı tepeleme olmayacak)",
+    "1 kase yoğurt",
+    "1 diş sarımsak",
+    "Kekik",
+    "Tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sehriyeli-kremali-tavuk-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kış Sebzeleri Çorbası",
+   "malzemeler": [
+    "2 adet kapya biber",
+    "1 adet havuç",
+    "1 adet orta boy soğan",
+    "1 adet orta boy patates",
+    "2 adet orta boy domates",
+    "1 yemek kaşığı un",
+    "3 yemek kaşığı sıvı yağ",
+    "1 tatlı kaşığı tuz",
+    "1 çay kaşığı pul biber",
+    "4 su bardağı sıcak su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kis-sebzeleri-corbasi-12628322/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Unsuz Enfes Brokoli Çorbası",
+   "malzemeler": [
+    "250 gram brokoli",
+    "1 adet küçük soğan",
+    "1 diş sarımsak",
+    "2 yemek kaşığı zeytinyağı",
+    "1 adet havuç",
+    "1 adet küçük patates",
+    "3 bardak sıcak su",
+    "1,5 bardak süt",
+    "1 tatlı kaşığı tuz",
+    "1/2 (yarım) çay kaşığı karabiber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/unsuz-enfes-brokoli-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Semizotunun En Lezzetli Hali: Pirpirim Aşı",
+   "malzemeler": [
+    "1 kahve fincanı bulgur",
+    "1 adet kapya biber",
+    "1 adet soğan",
+    "2 kahve fincanı yeşil mercimek",
+    "1 çay bardağı haşlanmış nohut",
+    "1 çay bardağı haşlanmış börülce",
+    "Yarım kilo semizotu(pirpirim)",
+    "1 çay kaşığı toz sumak",
+    "1 çay kaşığı tuz",
+    "1 çay kaşığı karabiber",
+    "1 tatlı kaşığı kuru nane",
+    "2 adet domates",
+    "1 tatlı kaşığı biber salçası",
+    "1 tatlı kaşığı domates salçası",
+    "1 adet sarımsak",
+    "1 yemek kaşığı nar ekşisi"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/semizotunun-en-lezzetli-hali-pirpirim-asi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Şifa Deposu Sebzeli Tavuk Çorbası",
+   "malzemeler": [
+    "1 adet kalçalı but (yada 4-5 adet incik)",
+    "3 yemek kaşığı mercimek",
+    "1 adet patates",
+    "1 adet soğan",
+    "1 adet kapya biber",
+    "1 adet havuç",
+    "3-4 diş sarımsak",
+    "1 çay kaşığı tuz",
+    "1 çay kaşığı karabiber",
+    "1 çay kaşığı zerdeçal",
+    "1 çay kaşığı pul biber",
+    "2 kaşık sıvı yağı yada tereyağı",
+    "1.5 litre su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sifa-deposu-sebzeli-tavuk-corbasi-12630469/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Mercimek Çorbası (Unlu)",
+   "malzemeler": [
+    "1.5 yemek kaşığı tereyağı",
+    "1 yemek kaşığı sıvı yağ",
+    "1 adet soğan",
+    "2/3 diş sarımsak",
+    "1 adet patates",
+    "1 tatlı kaşığı un",
+    "1.5 su bardağı kırmızı mercimek",
+    "1 çay kaşığı tuz",
+    "1 tatlı kaşığı zerdeçal",
+    "1 çay kaşığı karabiber",
+    "Alabildiğine sıcak su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/mercimek-corbasi-unlu-12629726/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Düğün Çorbası",
+   "malzemeler": [
+    "1 kase haşlanmış didiklenmiş et",
+    "3 su bardağı et suyu",
+    "3 su bardağı içme suyu",
+    "1 tatlı kaşığı tuz",
+    "1 adet yumurta sarısı",
+    "2.5 yemek kaşığı un",
+    "Yarım limon suyu",
+    "3 yemek kaşığı yoğurt",
+    "1 çay bardağı su",
+    "Tereyağı",
+    "Toz biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/dugun-corbasi-12630087/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Şifa Çorbası",
+   "malzemeler": [
+    "1 tane patates",
+    "1 tane havuç",
+    "1 tane kapya biber",
+    "3 diş sarımsak",
+    "1 çay bardağı kırmızı mercimek",
+    "Tuz",
+    "Karabiber",
+    "Pulbiber",
+    "Toz kırmızı biber",
+    "2 parça tavuk göğsü (ben 1 parça kullandım)",
+    "1 dilim limon",
+    "1 yemek kaşığı tereyağı",
+    "Su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sifa-corbasi-12630083/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sütlü Sebze Çorbası (Lokanta Usulü)",
+   "malzemeler": [
+    "1 su bardağı un",
+    "1 yemek kaşığı tereyağı",
+    "2 yemek kaşığı sıvı yağı",
+    "1.5 litre süt",
+    "1 litre su",
+    "2 yemek kaşığı sıvı yağ",
+    "1 yemek kaşığı tereyağı",
+    "2 adet soğan",
+    "2 adet havuç",
+    "1 adet patates",
+    "Yarım bağ dereotu",
+    "1 tatlı kaşığı tuz",
+    "1 çay kaşığı karabiber",
+    "1 çay kaşığı pul biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sutlu-sebze-corbasi-lokanta-usulu/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Ekşili Tavuk Çorbası",
+   "malzemeler": [
+    "1 adet kalçalı tavuk but",
+    "5 bardak su",
+    "2 diş sarımsak",
+    "1 yemek kaşığı domates salçası",
+    "Zeytinyağı",
+    "1/2 (yarım) yemek kaşığı biber salçası",
+    "1 yemek kaşığı un",
+    "1 tatlı kaşığı nane",
+    "Karabiber",
+    "Tuz",
+    "2 yemek kaşığı limon suyu",
+    "1 çay bardağı arpa şehriye"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/eksili-tavuk-corbasi-12628338/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Arabaşı Çorbası",
+   "malzemeler": [
+    "1 tüm tavuk",
+    "Su",
+    "1 adet soğan",
+    "1 adet patates",
+    "1 su bardağı sıvı yağ",
+    "1 su bardağı un",
+    "3 yemek kaşığı salça",
+    "1 tatlı kaşığı pul biber",
+    "1 çay kaşığı limon tuzu",
+    "1 tatlı kaşığı tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/arabasi-corbasi-12627792/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Ev Tarhanası Nasıl Yapılır? (Videolu)",
+   "malzemeler": [
+    "1 kg pembe domates",
+    "Yarım kg kapya biber (yarım çay bardağı su ile haşlanacak)",
+    "Yarım kg tam yağlı yoğurt",
+    "250 gram sivri biber",
+    "3 adet orta boy mor soğan",
+    "1 yemek kaşığı dolusu kaya tuzu",
+    "12 su bardağı un (ilk aşama)",
+    "4 su bardağı un (3. gün ilave etmek için)"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/ev-tarhanasi-nasil-yapilir-videolu-12627636/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tavuk Çorbası",
+   "malzemeler": [
+    "2 adet kalçalı but",
+    "2 çay bardağı pirinç",
+    "1 tatlı kaşığı tuz",
+    "2 adet yumurta",
+    "4 yemek kaşığı un",
+    "4 yemek kaşığı yoğurt",
+    "2 diş sarımsak",
+    "1 çay bardağı su",
+    "Yarım limon suyu",
+    "2 yemek kaşığı tereyağı",
+    "1 tatlı kaşığı kırmızı toz biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tavuk-corbasi-12626680/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Mercimek Çorbası",
+   "malzemeler": [
+    "1,5 yemek kaşığı tereyağ",
+    "2 büyük diş sarımsak",
+    "1 yemek kaşığı un",
+    "1 çay kaşığı zerdeçal",
+    "1 çay kaşığı karabiber",
+    "1 su bardağı kırmızı mercimek",
+    "1 minik paket dana ilikli kemik suyu",
+    "5 su bardağı sıcak su",
+    "Tuz",
+    "1 yemek kaşığı zeytinyağ",
+    "1 yemek kaşığı tereyağ",
+    "Pul biber",
+    "Kızarmış ekmek",
+    "Baget ekmek",
+    "Kekik",
+    "Zeytinyağı"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/mercimek-corbasi-12626592/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Pırasa Çorbası (Kremalı)",
+   "malzemeler": [
+    "1 büyük adet pırasa",
+    "1 adet havuç",
+    "1 büyük patates",
+    "1 kuru soğan",
+    "2 diş sarımsak",
+    "2 yemek kaşığı un",
+    "1 paket sıvı krema",
+    "Kuru dereotu",
+    "Tuz",
+    "İsteğe göre et/tavuk suyu",
+    "Kaynamış su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/pirasa-corbasi-kremali/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kıyma Çorbası",
+   "malzemeler": [
+    "2 yemek kaşığı kıyma",
+    "2 yemek kaşığı tereyağ",
+    "1 yemek kaşığı zeytinyağı",
+    "2 yemek kaşığı domates ve biber salçası",
+    "Karabiber",
+    "Pulbiber",
+    "Nane",
+    "10 su bardağı su",
+    "2-3 yemek kaşığı arpa şehriye",
+    "Tuz",
+    "1 çay bardağı yoğurt",
+    "2 yemek kaşığı un",
+    "1 su bardağı su",
+    "1 yumurta sarısı (isteğe bağlı)"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kiyma-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Zerdeçallı Tavuklu Arpa Şehriye Çorbası",
+   "malzemeler": [
+    "1 kase minik minik doğranmış tavuk göğsü",
+    "1 kase arpa şehriye",
+    "3-4 kaşık domates konservesi / 1 orta boy domates",
+    "1 yemek kaşığı domates salçası",
+    "1 diş sarımsak",
+    "1 orta boy soğan",
+    "1 çay kaşığı ucuyla zerdeçal",
+    "Tuz",
+    "Nane",
+    "Zeytinyağ"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/zerdecalli-tavuklu-arpa-sehriye-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Ekşili Köfte",
+   "malzemeler": [
+    "400 gram kıyma",
+    "1 soğan rendesi",
+    "Tuz",
+    "Karabiber",
+    "1 adet yumurta",
+    "3 çorba kaşığı pirinç",
+    "2 adet patates",
+    "2 adet havuç",
+    "2 çorba kaşığı sıvı yağ",
+    "1.5 litre sıcak su",
+    "3 çorba kaşığı yoğurt",
+    "1 tane limon",
+    "1 yumurta sarısı",
+    "2 çorba kaşığı tereyağı",
+    "1 tatlı kaşığı nane",
+    "1 tatlı kaşığı kekik"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/eksili-kofte-12625548/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tavuklu Tatlı Patates Çorbası",
+   "malzemeler": [
+    "1 adet orta boy kırmızı soğan",
+    "1 adet orta boy tatlı patates",
+    "1 adet orta boy havuç",
+    "2 diş sarımsak",
+    "Zeytinyağı",
+    "Tuz",
+    "Karabiber",
+    "Kırmızı toz biber",
+    "1 adet tavuk göğsü",
+    "1 lt su",
+    "Acı biber ipliği"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tavuklu-tatli-patates-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Şehriyeli Çorba",
+   "malzemeler": [
+    "1 çay bardağı arpa şehriye",
+    "1 yemek kaşığı un",
+    "2 yemek kaşığı sıvı yağ",
+    "4 su bardağı kaynamış su ( et suyuda olabilir)",
+    "1 su bardağı yoğurt",
+    "1 yumurta sarısı",
+    "1 tatlı kaşığı tuz",
+    "1 yemek kaşığı tereyağ",
+    "1 yemek kaşığı nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sehriyeli-corba-12625050/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Terbiyeli Sebze Çorbası",
+   "malzemeler": [
+    "1 adet kuru soğan",
+    "Yarım havuç",
+    "1 adet patates",
+    "Yarım kabak",
+    "1 adet köy biberi",
+    "2 diş sarımsak",
+    "1 yemek kaşığı zeytinyağı",
+    "1 yemek kaşığı tereyağı",
+    "4 su bardağı tavuk suyu",
+    "1 çay kaşığı tuz",
+    "1 çay kaşığı karabiber",
+    "1 çay kaşığı zerdeçal",
+    "1 tutam maydanoz",
+    "1 adet kereviz sapı",
+    "1 tutam dereotu",
+    "1 dal taze soğan",
+    "Yarım pırasa",
+    "500 gram yoğurt",
+    "1 adet yumurta sarısı",
+    "1 yemek kaşığı un",
+    "Yarım limon suyu"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/terbiyeli-sebze-corbasi-12624357/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Bamya Çorbası",
+   "malzemeler": [
+    "200 gram taze bamya",
+    "1 yemek kaşığı tereyağ",
+    "2 orta boy domates",
+    "1 orta boy soğan",
+    "1/2 (yarım) kahve fincanı zeytinyağ",
+    "1 limon suyu",
+    "Tuz",
+    "Pul biber",
+    "1/2 (yarım) kahve fincanı koruk suyu"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/bamya-corbasi-12623747/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Şifalı Tavuk Çorbası",
+   "malzemeler": [
+    "1 adet patates",
+    "1 adet soğan",
+    "1 adet havuç",
+    "1 adet biber",
+    "1 adet domates",
+    "3 diş sarımsak",
+    "Yarım adet pırasa",
+    "2 adet göğüs eti",
+    "3-4 dal maydanoz",
+    "1 çay kaşığı toz zencefil",
+    "1 çay kaşığı toz zerdeçal",
+    "1 çay kaşığı toz köri",
+    "2 tatlı kaşığı tuz",
+    "1 litre su",
+    "2 yemek kaşığı tereyağı",
+    "2 yemek kaşığı zeytinyağı"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sifali-tavuk-corbasi-12623519/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kars Yöresine Ait Kesme Çorbası",
+   "malzemeler": [
+    "1,5 su bardağı yeşil mercimek",
+    "3 litre su",
+    "2 yumurta",
+    "2 su bardağı su",
+    "5-6 su bardağı un(un miktarı değişiklik gösterebilir)",
+    "2 tatlı kaşığı tuz",
+    "Yarım çay bardağı sıvı yağ(çıtırları için olan hamura ekleyip yoğuracağız, hamurlara çıtırlık verecek)",
+    "2 çay bardağı sıvı yağ",
+    "2 yemek kaşığı sıvı yağ",
+    "2 yemek kaşığı tereyağı",
+    "1 büyük kuru soğan",
+    "1 tatlı kaşığı pul biber",
+    "1 tatlı kaşığı kırmızı toz biber",
+    "1 tatlı kaşığı nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kars-yoresine-ait-kesme-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tavuk Çorbası",
+   "malzemeler": [
+    "Haşlanmış tavuk ve suyu",
+    "3 tatlı kaşığı un",
+    "1 tane orta boy rendelenmiş havuç",
+    "2 diş sarımsak",
+    "Yarım su bardağı pirinç",
+    "1 kaşık tereyağ ve sıvı yağ",
+    "1 adet soğan",
+    "Maydanoz",
+    "Tuz",
+    "Pul biber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tavuk-corbasi-12576969/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sebzeli Şehriye Çorbası (Videolu)",
+   "malzemeler": [
+    "1 yemek kaşığı tereyağı",
+    "2-3 yemek kaşığı sıvı yağ",
+    "1 adet soğan",
+    "1 adet patates",
+    "1 adet havuç",
+    "1 adet kapya biber",
+    "1 adet yeşil biber",
+    "1 adet domates",
+    "2 diş sarımsak",
+    "1 yemek kaşığı domates salçası",
+    "1 çay bardağı tel şehriye",
+    "Su",
+    "Tuz",
+    "Maydanoz",
+    "Limon"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sebzeli-sehriye-corbasi-videolu/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kış Çorbası",
+   "malzemeler": [
+    "1 orta boy patates",
+    "1 orta boy havuç",
+    "1 orta boy soğan",
+    "1 orta boy kapya biber",
+    "Yarım tavuk göğüsü",
+    "1 çay kaşığı kırmızı toz biber",
+    "1 çay kaşığı karabiber",
+    "1 çay kaşığı tuz",
+    "1 çay kaşığı pul biber (acı sevenler arttırabilir)",
+    "1 çay bardağı kırmızı mercimek",
+    "1 litre su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kis-corbasi-12611738/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Terbiyeli Köfteli Çorba",
+   "malzemeler": [
+    "250 gram kıyma",
+    "1 adet soğan (rendelenmiş, suyu sıkılmış)",
+    "1/2 (yarım) çay kaşığı karabiber",
+    "1/2 (yarım) çay kaşığı kırmızı toz biber",
+    "1/2 (yarım) çay kaşığı tuz",
+    "3-4 yemek kaşığı zeytinyağı",
+    "1 adet havuç (rendelenmiş)",
+    "1 çay bardağı kuskus",
+    "6 su bardağı tavuk suyu (veya sıcak su)",
+    "1 tatlı kaşığı tuz",
+    "1 çay kaşığı karabiber",
+    "5 yemek kaşığı yoğurt",
+    "1 adet yumurta sarısı",
+    "1 yemek kaşığı un",
+    "1/2 (yarım) adet limonun suyu (isteğe bağlı)",
+    "1 yemek kaşığı tereyağı",
+    "4-5 dal maydanoz (isteğe göre nanede olur)"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/terbiyeli-kofteli-corba-12612310/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Vitamin Deposu Sütlü Kış Çorbası",
+   "malzemeler": [
+    "1 orta boy kereviz",
+    "1 orta boy havuç",
+    "1 orta boy patates",
+    "1 orta boy kuru soğan",
+    "2 su bardağı süt",
+    "Yeterli miktarda tuz",
+    "2 yemek kaşığı un",
+    "Tereyağ yada sıvı yağ"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/vitamin-deposu-sutlu-kis-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sütlü Kabak Çorbası",
+   "malzemeler": [
+    "1 yemek kaşığı zeytinyağı",
+    "1 yemek kaşığı tereyağ",
+    "2 yemek kaşığı tepeleme un",
+    "2 adet yeşil kabak",
+    "3 su bardağı süt",
+    "4 su bardağı su",
+    "Dereotu",
+    "Pulbiber",
+    "Karabiber",
+    "Tuz",
+    "Nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sutlu-kabak-corbasi-12622410/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kıvamı İpek Gibi Mantar Çorbası (Videolu)",
+   "malzemeler": [
+    "1 paket mantar (300-400 g)",
+    "2 yemek kaşığı tereyağı",
+    "2 yemek kaşığı sıvı yağ",
+    "2 yemek kaşığı un",
+    "Sıvı krema (100 ml)",
+    "3-4 damla taze limon suyu (renginin bembeyaz kalması için)",
+    "5 su bardağı oda sıcaklığında su (sıcak değil)",
+    "2 çay kaşığı tuz",
+    "Yarım çay kaşığı karabiber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kivami-ipek-gibi-mantar-corbasi-videolu/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Ekşili Köfte Çorbası",
+   "malzemeler": [
+    "400 gram kıyma",
+    "1 soğan rendesi",
+    "Tuz",
+    "Karabiber",
+    "1 adet yumurta",
+    "3 çorba kaşığı pirinç",
+    "2 adet patates",
+    "2 adet havuç",
+    "2 çorba kaşığı sıvı yağ",
+    "3 çorba kaşığı yoğurt",
+    "2 çorba kaşığı un",
+    "1 tane limon",
+    "1 yumurta sarısı",
+    "2 çorba kaşığı tereyağı",
+    "1 çorba kaşığı nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/eksili-kofte-corbasi-12620201/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Köfteli Şehriye Çorbası",
+   "malzemeler": [
+    "250-300gr kıyma",
+    "Küçük soğan rendesi(ince yeri)",
+    "Tuz",
+    "Karabiber",
+    "Toz biber",
+    "Yarım çay bardağı ince bulgur",
+    "1 yumurta sarısı (isteğe bağlı)",
+    "1 küçük kapya biber",
+    "1 adet yeşil biber",
+    "Yarım çay bardağı zeytinyağı",
+    "1 dolu yemek kaşığı salça(karışık)",
+    "1-2 domates rendesi (ince yeri)",
+    "Tuz",
+    "Nane (isteğe bağlı)",
+    "Yarım su bardağı arpa şehriye",
+    "1 tutam maydanoz",
+    "Birkaç damla limon suyu (isteğe bağlı)",
+    "1.5 litre su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kofteli-sehriye-corbasi-12620511/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Anne Usulü Tavuk Suyu Çorba",
+   "malzemeler": [
+    "500 gram tavuk göğsü",
+    "1,5 lt soğuk su",
+    "1 silme tatlı kaşığı tuz",
+    "Yarım çay kaşığı karabiber",
+    "1 adet orta boy limon",
+    "3/4 (bir yarım+bir çeyrek) su bardağı tel şehriye",
+    "Yarım çay kaşığı pul biber",
+    "1 kesme şeker boyutu tereyağ",
+    "İlave 1 su bardağı sıcak su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/anne-usulu-tavuk-suyu-corba/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sütlü Tarhana Çorbası (Videolu)",
+   "malzemeler": [
+    "5 yemek kaşığı tarhana",
+    "1 dolu yemek kaşığı tereyağı",
+    "2 yemek kaşığı zeytinyağı",
+    "1 tatlı kaşığı karışık biber salçası",
+    "1 su bardağı süt",
+    "4.5 su bardağı su",
+    "Tuz",
+    "Yarım limonun suyu",
+    "Çeyrek çay kaşığı zerdeçal",
+    "2 yemek kaşığı zeytinyağı",
+    "1 çay kaşığı pul biber",
+    "1.5 çay kaşığı kuru nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sutlu-tarhana-corbasi-videolu-12620009/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Fıtı Çorbası (Yöresel)",
+   "malzemeler": [
+    "1 çay bardağı ince bulgur (fıtı)",
+    "1 çorba kaşığı tereyağı",
+    "1 çorba kaşığı sıvı yağ",
+    "8-10 yemek kaşığı un"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/fiti-corbasi-yoresel/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Klasik Mercimek Çorba",
+   "malzemeler": [
+    "1,5 su bardağı kırmızı mercimek",
+    "7 su bardağı soğuk su",
+    "1 yemek kaşığı un",
+    "2 yemek kaşığı zeytinyağı",
+    "1 tatlı kaşığı tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/klasik-mercimek-corba/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Şifa Çorbası Mercimek (Tam Kıvamında)",
+   "malzemeler": [
+    "1 su bardağı mercimek",
+    "4 su bardağı su",
+    "1 bardak tavuk suyu (isteğe bağlı)",
+    "1 diş sarımsak",
+    "2 yemek kaşığı tereyağı",
+    "1 yemek kaşığı un"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sifa-corbasi-mercimek-tam-kivaminda/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Şehriyeli Tavuk Çorbası",
+   "malzemeler": [
+    "2 adet tavuk kalçalı but",
+    "3 yemek kaşığı sirke",
+    "1 adet yumurta",
+    "Yarım çay bardağı tel şehriye",
+    "2 yemek kaşığı un",
+    "2 su bardağı yoğurt",
+    "4 yemek kaşığı limon suyu",
+    "3 çay kaşığı tuz",
+    "1 çay kaşığı karabiber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sehriyeli-tavuk-corbasi-12618513/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kış Çorbası",
+   "malzemeler": [
+    "2 adet tavuk budu",
+    "1 adet patates",
+    "1 adet havuç",
+    "1 adet kereviz başı",
+    "1 adet kuru soğan",
+    "2 adet küçük acı kırmızı biber (isterseniz onun yerine tatlı biberde kullanabilirsiniz)",
+    "2 adet sarımsak",
+    "Yarım sarı biber (yeşilbiber de kullanılabilir isteğe bağlı)",
+    "1 tatlı kaşığı tuz",
+    "2 tatlı kaşığı tereyağı",
+    "1 yemek kaşığı zeytinyağı",
+    "1 tutam dereotu (dereotu yerine maydanoz da kullanılabilir)",
+    "1 litre haşlanmış tavuk suyu",
+    "1 çay fincanı tel şehriye",
+    "1 yemek kaşığı un",
+    "2 yemek kaşığı yoğurt",
+    "1 su bardağı süt",
+    "1 adet limon kabuğu rendesi",
+    "1 adet limonun suyu",
+    "1 çay kaşığı zerdeçal",
+    "1 çay kaşığı karabiber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kis-corbasi-12618434/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Yumurtasız, Terbiyeli Yeşil Mercimek Çorbası",
+   "malzemeler": [
+    "1 çay bardağı yesil mercimek",
+    "1 çay bardağı erişte",
+    "2 kaşık yoğurt",
+    "6 bardak su",
+    "Tuz",
+    "1 yemek kaşığı tereyağı",
+    "Kuru nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/yumurtasiz-terbiyeli-yesil-mercimek-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Kabak Çorbası",
+   "malzemeler": [
+    "3 adet orta boy kabak",
+    "1 adet orta boy soğan",
+    "2 diş sarımsak",
+    "2 yemek kaşığı sıvı yağ",
+    "1 adet orta boy patates",
+    "1 adet küçük boy havuç",
+    "5-6 bardak sıcak su",
+    "Yarım et suyu bulyon",
+    "1 tatlı kaşığı tuz",
+    "1 çay kaşığı pul biber",
+    "1 çay kaşığı karabiber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/kabak-corbasi-12617059/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Domatesli Arpa Şehriye Çorbası",
+   "malzemeler": [
+    "1 çay bardağı arpa şehriye",
+    "1 orta boy domates",
+    "5 su bardağı sıcak su",
+    "1 yemek kaşığı salça",
+    "3 yemek kaşığı zeytinyağı",
+    "1 çay kaşığı tuz",
+    "1 çay kaşığı kuru nane",
+    "Yarım limon suyu",
+    "1 çay kaşığı karabiber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/domatesli-arpa-sehriye-corbasi-12616929/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sütlü Domates Çorbası",
+   "malzemeler": [
+    "1 büyük domates (ayaş/pembe domates, eğer büyük domateslerden yoksa 2 orta boy domates de olur)",
+    "4 yemek kaşığı zeytinyağı",
+    "1 yemek kaşığı tereyağı",
+    "1,5 yemek kaşığı un (dolu dolu)",
+    "Yarım çay bardağı süt",
+    "1 yemek kaşığı domates salçası",
+    "Su",
+    "Yarım su bardağı ilikli kemik suyu(ben marketlerde küçük kaplarda satılan donmuş dana ilikli kemik suyundan 2 adet kullandım)",
+    "Tuz",
+    "Ekmek (kruton ya da kızarmış baget ekmek olabilir )",
+    "Rende kaşar (parmesan/mozarella da olur )"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sutlu-domates-corbasi-12616222/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Anadolu Çorbası",
+   "malzemeler": [
+    "1 yemek kaşığı pirinç",
+    "1 yemek kaşığı yeşil mercimek",
+    "1 yemek kaşığı bulgur",
+    "1 yemek kaşığı kırmızı mercimek",
+    "1 su bardağı yoğurt",
+    "1 yumurta sarısı",
+    "2 yemek kaşığı un",
+    "1 adet rendelenmiş kuru soğan",
+    "1 buçuk tatlı kaşığı nane",
+    "1 çay kaşığı pulbiber",
+    "1 silme tatlı kaşığı tuz",
+    "1 çay kaşığının ucu ile karabiber"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/anadolu-corbasi-12615366/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sarı Mercimek Çorbası",
+   "malzemeler": [
+    "1 su bardağı sarı mercimek (kırmızıda olur)",
+    "1 adet patates",
+    "1 adet soğan",
+    "1 tatlı kaşığı salça",
+    "1 çay bardağı tereyağ sıvı yağ karışımı",
+    "Tuz",
+    "Kırmızı biber",
+    "1 diş sarımsak",
+    "2 litreye yakın su (kontrollü ekleyin)"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sari-mercimek-corbasi-12613975/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Yeşil Mercimekli Kesme Aşı Çorbası",
+   "malzemeler": [
+    "1 su bardağı yeşil mercimek",
+    "1 çay bardağı kare erişte",
+    "1 adet soğan",
+    "1 yemek kaşığı salça",
+    "1 domates rendesi",
+    "1/2 (yarım) çay bardağı sıvı yağ tereyağ karışık",
+    "Tuz",
+    "Karabiber",
+    "Kırmızı biber",
+    "Nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/yesil-mercimekli-kesme-asi-corbasi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Fransız Usulü Soğan Çorbası",
+   "malzemeler": [
+    "6 tane büyük boy kuru soğan",
+    "3 yemek kaşığı zeytinyağı",
+    "3 çay kaşığı tuz",
+    "2 yemek kaşığı tereyağ",
+    "1 tatlı kaşığı toz şeker",
+    "2 diş sarımsak",
+    "2 yemek kaşığı balzamik sirke",
+    "2 adet defne yaprağı",
+    "1 çay kaşığı karabiber",
+    "6 su bardağı et suyu",
+    "6 dilim kalın kesilmiş ekmek",
+    "1 kase kaşar peyniri"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/fransiz-usulu-sogan-corbasi-12612155/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Yüksük Çorbası (Videolu)",
+   "malzemeler": [
+    "1 yemek kaşığı tereyağı",
+    "2 yemek kaşığı sıvı yağ",
+    "1 yemek kaşığı domates salçası",
+    "4 yemek kaşığı konserve domates sosu",
+    "1 litre su (4 su bardağı)",
+    "1 su bardağı mantı",
+    "1 su bardağı haşlanmış nohut",
+    "1 çay kaşığı pul biber",
+    "1 çay kaşığı karabiber",
+    "1 çay kaşığı nane",
+    "1 çay kaşığı tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/yuksuk-corbasi-videolu-12611694/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Brokoli Çorbası | Kremalı Tam Kıvamında Brokoli Çorbası (Videolu)",
+   "malzemeler": [
+    "500 gram brokoli (ayıklanmış)",
+    "1 diş sarımsak",
+    "15 gram un (1 tepeleme yemek kaşığı)",
+    "20 gram tereyağı (1 yemek kaşığı)",
+    "Tuz",
+    "2 litre soğuk su",
+    "10-15 adet buz",
+    "100 ml krema (yarım paket) veya 60 ml süt (yarım çay bardağı)"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/brokoli-corbasi-kremali-tam-kivaminda-brokoli-corbasi-videolu/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sütlü Sebze Çorbası",
+   "malzemeler": [
+    "1 adet kabak",
+    "1 adet havuç",
+    "1 adet küçük soğan",
+    "3 yemek kaşığı dolusu un",
+    "1 yemek kaşığı tereyağ",
+    "2 yemek kaşığı sıvı yağ",
+    "1 çay kaşığı tuz",
+    "Çay kaşığı ucuyla karabiber, kırmızı toz biber",
+    "1,5 lt su",
+    "1 çay bardağı ılık süt",
+    "2-3 dal dereotu ( tercihen )"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sutlu-sebze-corbasi-12611212/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sebzeli Tavuklu Şehriye Çorbası",
+   "malzemeler": [
+    "1 adet domates",
+    "1 adet patates",
+    "1 adet havuç",
+    "1 adet soğan",
+    "3 diş sarımsak",
+    "Yarım tavuk göğsü",
+    "1 çay kaşığı pul biber",
+    "1 çay kaşığı karabiber",
+    "Yarım çay bardağı sıvı yağ",
+    "Yeteri miktarda tuz",
+    "1 çay bardağı tel şehriye",
+    "Biraz doğranmış maydanoz",
+    "Yeterli miktarda kaynar su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sebzeli-tavuklu-sehriye-corbasi-12611118/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Tavuk Çorbası",
+   "malzemeler": [
+    "Bir parça üst but veya tavuk bonfile",
+    "1 çay bardağı arpa şehriye",
+    "2 yemek kaşığı zeytinyağı",
+    "1 yumurta sarısı",
+    "1 limon suyu",
+    "1 tepeli yemek kaşığı mısır unu",
+    "2 yemek kaşığı tereyağı",
+    "1 çay kaşığı zerdeçal",
+    "Yarım çay kaşığı karabiber",
+    "Yarım çay kaşığı kimyon",
+    "Yarım çay kaşığı kekik"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/tavuk-corbasi-12610220/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "​Elazığ Usulü Sumaklı Ve Sebzesiz Ekşili Köfte Tarifi",
+   "malzemeler": [
+    "​1,5 su bardağı köftelik ince bulgur",
+    "​Sıcak su (bulguru ıslatmak için)",
+    "​2-3 yemek kaşığı un",
+    "​1 çay kaşığı tuz",
+    "​Yoğururken elleri ıslatmak için bir kasede su",
+    "​1 su bardağı sumak",
+    "​5 su bardağı kaynar su (sumağı bekletmek için)",
+    "​1 yemek kaşığı un (suyu bağlamak için)",
+    "​1 adet kuru soğan (küçük yemeklik doğranmış)",
+    "​1 yemek kaşığı domates salçası",
+    "​1 yemek kaşığı biber salçası",
+    "​2-3 yemek kaşığı sıvı yağ veya tereyağı",
+    "​1 çay kaşığı tuz"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/elazig-usulu-sumakli-ve-sebzesiz-eksili-kofte-tarifi/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Yaş Tarhana Çorbası ( Mayasız)",
+   "malzemeler": [
+    "1 yemek kaşığı tereyağı",
+    "1 yemek kaşığı ayçiçeği yağı",
+    "1 adet soğan",
+    "2 adet sarımsak",
+    "2 adet yeşil biber",
+    "2 adet kapya biber",
+    "2 adet domates",
+    "1 yemek kaşığı domates salçası",
+    "1 yemek kaşığı biber salçası",
+    "2 yemek kaşığı un",
+    "1 su bardağı yoğurt",
+    "1 tatlı kaşığı nane",
+    "1 tatlı kaşığı pul biber",
+    "2 tatlı kaşığı tuz",
+    "Karabiber",
+    "5 su bardağı su"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/yas-tarhana-corbasi-mayasiz/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Sebzeli Yeşil Mercimek Çorbası (Unsuz Kremasız)",
+   "malzemeler": [
+    "3 yemek kaşığı zeytinyağı",
+    "1 adet soğan",
+    "2 küçük kırmızı biber",
+    "1 büyük havuç",
+    "2 orta boy domates",
+    "1 tatlı kaşığı salça",
+    "1 çay bardağı yeşil mercimek",
+    "2 su bardağı tavuk suyu",
+    "Tuz",
+    "Karabiber",
+    "Sevdiğiniz baharatlar"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/sebzeli-yesil-mercimek-corbasi-unsuz-kremasiz/",
+   "kategori": "corba-tarifleri"
+  },
+  {
+   "isim": "Limonlu Terbiyeli Kıymalı Pirinç Çorbası",
+   "malzemeler": [
+    "1 küçük boy çay bardağı baldo pirinç",
+    "5 su bardağı su (pirinci haşlamak için)",
+    "1 adet kuru soğan",
+    "1 diş sarımsak",
+    "1 adet rendelenmiş domates",
+    "100 gram dana kıyma",
+    "1 tatlı kaşığı biber salçası",
+    "1 tatlı kaşığı tereyağ",
+    "5 yemek kaşığı sıvı yağ",
+    "6 su bardağı su",
+    "2 çay kaşığı tuz",
+    "Yarım çay kaşığı karabiber",
+    "1 çay kaşığı toz tatlı biber",
+    "Yarım limonun suyu",
+    "1 adet yumurtanın sarısı",
+    "1 tatlı kaşığı un",
+    "1 çay bardağı su",
+    "1 tatlı kaşığı tereyağ",
+    "4 yemek kaşığı sıvı yağ",
+    "1 çay kaşığı kuru nane"
+   ],
+   "url": "https://www.nefisyemektarifleri.com/limonlu-terbiyeli-kiymali-pirinc-corbasi/",
+   "kategori": "corba-tarifleri"
+  }
+ ]
 }
