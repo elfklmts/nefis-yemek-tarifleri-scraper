@@ -12,27 +12,52 @@ Bilgisayarda Google Chrome kurulu olmalı. Uygun ChromeDriver'ı Selenium Manage
 
 ## Kullanım
 
+Tüm siteyi taramak için (çökmelere karşı kendini yeniden başlatır, her 2 saatte bir veriyi GitHub'a pushlar):
+
 ```bash
-python scraper.py                                   # varsayılan kategoriler, kategori başına 1 sayfa
-python scraper.py --pages 3 --limit 200             # kategori başına 3 sayfa, en fazla 200 tarif
-python scraper.py --categories corba-tarifleri tatli-tarifleri --no-headless
+caffeinate -i ./calistir.sh
 ```
+
+Elle çalıştırmak için:
+
+```bash
+python scraper.py                      # tüm kategoriler, tüm sayfalar (sayfa sayısı otomatik bulunur)
+python scraper.py --workers 1          # tek tarayıcı ile (daha yavaş, siteye daha az yük)
+python scraper.py --categories corba-tarifleri --max-pages 5
+python scraper.py --export             # toplanan veriyi tarifler/ klasörüne JSON parçaları olarak yaz
+```
+
+Bot her tarifi çektikçe `veri/<kategori>.jsonl` dosyasına ekler ve tamamlanan sayfaları
+`veri/ilerleme.json`'a yazar. Durdurulursa (Ctrl+C) tekrar çalıştırıldığında kaldığı yerden devam eder.
 
 | Parametre | Açıklama | Varsayılan |
 |---|---|---|
 | `--categories` | Kategori slug'ları | çorba, et, sebze, tatlı, hamur işi, salata |
-| `--pages` | Kategori başına sayfa sayısı | 1 |
-| `--limit` | Toplam tarif sınırı (0 = sınırsız) | 0 |
-| `--delay` | İstekler arası bekleme (sn) | 1.0 |
-| `--output` | Çıktı dosyası | `tarifler.json` |
+| `--max-pages` | Kategori başına en fazla sayfa (0 = hepsi) | 0 |
+| `--workers` | Paralel tarayıcı sayısı (2’den fazlası sitede yavaşlamaya yol açıyor) | 2 |
+| `--concurrency` | Her tarayıcıda aynı anda indirilen tarif | 4 |
+| `--delay` | Her kategori sayfasından sonra bekleme (sn) | 1.0 |
 | `--no-headless` | Tarayıcıyı görünür aç | kapalı |
+| `--export` | JSONL → `tarifler/<kategori>-NNN.json` (her biri ≤20.000 tarif) | — |
+
+## Eleme kuralları
+
+`--export` sırasında işe yaramayacak kayıtlar elenir ve sayıları `tarifler/ozet.json` içinde `elenen_tarif` altında tutulur:
+
+- isimsiz veya geçersiz linkli kayıtlar
+- 2'den az malzemesi olan tarifler
+- bozuk malzeme listeleri (60'tan fazla satır ya da paragraf halinde yazılmış malzeme)
+- aynı link veya aynı isim + aynı malzemelerle tekrar eden tarifler
 
 ## Çıktı formatı
+
+GitHub'ın 100 MB dosya sınırı nedeniyle veri kategori başına parçalara bölünür; `tarifler/ozet.json` toplam sayıları içerir.
 
 ```json
 {
   "kaynak": "https://www.nefisyemektarifleri.com",
-  "olusturulma_tarihi": "...",
+  "kategori": "et-yemekleri",
+  "parca": 1,
   "tarif_sayisi": 1,
   "tarifler": [
     {
