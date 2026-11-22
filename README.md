@@ -34,7 +34,7 @@ Bot her tarifi çektikçe `veri/<kategori>.jsonl` dosyasına ekler ve tamamlanan
 | `--categories` | Kategori slug'ları | çorba, et, sebze, tatlı, hamur işi, salata |
 | `--max-pages` | Kategori başına en fazla sayfa (0 = hepsi) | 0 |
 | `--workers` | Paralel tarayıcı sayısı (hız sınırı hepsi için ortak) | 1 |
-| `--min-gap` | İstekler arası en kısa bekleme (sn) | 0.7 |
+| `--min-gap` | İstekler arası en kısa bekleme (sn) | 1.5 |
 | `--no-headless` | Tarayıcıyı görünür aç | kapalı |
 | `--export` | JSONL → `tarifler/<kategori>-NNN.json` (her biri ≤20.000 tarif) | — |
 

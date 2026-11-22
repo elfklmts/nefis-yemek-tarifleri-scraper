@@ -80,7 +80,7 @@ class RateLimiter:
     birkaç dakika (en fazla 30 dk) tamamen durur.
     """
 
-    def __init__(self, gap=3.0, min_gap=0.7, max_gap=30.0):
+    def __init__(self, gap=3.0, min_gap=1.5, max_gap=30.0):
         self.gap, self.min_gap, self.max_gap = gap, min_gap, max_gap
         self.lock = threading.Lock()
         self.next_time = 0.0
@@ -101,9 +101,9 @@ class RateLimiter:
             self.stats["ok"] += 1
             self.block_streak = 0
             self.ok_streak += 1
-            if self.ok_streak >= 40:
+            if self.ok_streak >= 15:
                 self.ok_streak = 0
-                self.gap = max(self.min_gap, self.gap * 0.9)
+                self.gap = max(self.min_gap, self.gap * 0.8)
                 self.cooldown = max(300, self.cooldown // 2)
 
     def blocked(self):
@@ -477,7 +477,7 @@ def main():
                         help="Kategori başına en fazla sayfa (0 = tüm sayfalar, otomatik bulunur)")
     parser.add_argument("--workers", type=int, default=1,
                         help="Paralel tarayıcı sayısı (hız sınırı hepsi için ortaktır)")
-    parser.add_argument("--min-gap", type=float, default=0.7,
+    parser.add_argument("--min-gap", type=float, default=1.5,
                         help="İstekler arası en kısa bekleme (sn); bot bundan hızlı gitmez")
     parser.add_argument("--no-headless", action="store_true", help="Tarayıcıyı görünür aç")
     parser.add_argument("--export", action="store_true", help="Toplanan veriyi JSON parçalarına dönüştür")
