@@ -111,13 +111,15 @@ class RateLimiter:
             self.stats["blocked"] += 1
             self.ok_streak = 0
             self.block_streak += 1
+            # Engellendiğimiz hız sürdürülebilir değil: alt sınırı biraz yukarı taşı (öğrenen taban)
+            self.min_gap = min(8.0, max(self.min_gap, self.gap * 1.25))
             self.gap = min(self.max_gap, self.gap * 2)
             if self.block_streak >= 3:
                 pause = self.cooldown
                 self.cooldown = min(1800, self.cooldown * 2)
                 self.block_streak = 0
                 print(f"  .. site yavaşlamamızı istiyor, {pause // 60} dk ara veriliyor "
-                      f"(aralık {self.gap:.1f} sn)", flush=True)
+                      f"(aralık {self.gap:.1f} sn, yeni taban {self.min_gap:.1f} sn)", flush=True)
                 self.next_time = time.time() + pause
 
 
@@ -367,7 +369,7 @@ def run(args):
                         save_progress(progress)
                         rate = (time.time() - started) / i
                         eta_h = rate * (len(todo) - i) / 3600
-                        print(f"  sayfa {page} ✓ {len(recipes)} tarif | {i}/{len(todo)} | aralık {limiter.gap:.1f} sn | "
+                        print(f"  sayfa {page} ✓ {len(recipes)} tarif | {i}/{len(todo)} | aralık {limiter.gap:.1f}/{limiter.min_gap:.1f} sn | "
                               f"engel {limiter.stats['blocked']} | kalan ~{eta_h:.1f} saat", flush=True)
     except KeyboardInterrupt:
         print("\nDurduruldu. Tekrar çalıştırınca kaldığı yerden devam eder.")
