@@ -22,7 +22,6 @@ Elle çalıştırmak için:
 
 ```bash
 python scraper.py                      # tüm kategoriler, tüm sayfalar (sayfa sayısı otomatik bulunur)
-python scraper.py --workers 1          # tek tarayıcı ile (daha yavaş, siteye daha az yük)
 python scraper.py --categories corba-tarifleri --max-pages 5
 python scraper.py --export             # toplanan veriyi tarifler/ klasörüne JSON parçaları olarak yaz
 ```
@@ -34,11 +33,16 @@ Bot her tarifi çektikçe `veri/<kategori>.jsonl` dosyasına ekler ve tamamlanan
 |---|---|---|
 | `--categories` | Kategori slug'ları | çorba, et, sebze, tatlı, hamur işi, salata |
 | `--max-pages` | Kategori başına en fazla sayfa (0 = hepsi) | 0 |
-| `--workers` | Paralel tarayıcı sayısı (2’den fazlası sitede yavaşlamaya yol açıyor) | 2 |
-| `--concurrency` | Her tarayıcıda aynı anda indirilen tarif | 4 |
-| `--delay` | Her kategori sayfasından sonra bekleme (sn) | 1.0 |
+| `--workers` | Paralel tarayıcı sayısı (hız sınırı hepsi için ortak) | 1 |
+| `--min-gap` | İstekler arası en kısa bekleme (sn) | 0.7 |
 | `--no-headless` | Tarayıcıyı görünür aç | kapalı |
 | `--export` | JSONL → `tarifler/<kategori>-NNN.json` (her biri ≤20.000 tarif) | — |
+
+## Hız sınırı
+
+Site Cloudflare arkasında ve çok hızlı isteklere 403 döndürüyor. Bot istekleri tek tek gönderir;
+istekler başarılı oldukça yavaşça hızlanır, 403/429 alınca yavaşlar ve arka arkaya gelirse
+5–30 dakika ara verir. Alınamayan tarif olursa o sayfa tamamlanmış sayılmaz ve tekrar denenir.
 
 ## Eleme kuralları
 

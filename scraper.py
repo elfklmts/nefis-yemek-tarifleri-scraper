@@ -53,36 +53,76 @@ INGREDIENT_SELECTOR = "ul.recipe-materials li"
 
 # Hızlı mod: tarayıcı sitede açıkken sayfaları çizdirmeden, tarayıcının kendi fetch()'i
 # ile indirip DOMParser ile ayrıştırır. Reklam/görsel/script yüklenmediği için
-# tam sayfa açmaya göre ~20 kat hızlıdır.
-LIST_JS = r"""
-const [url, done] = [arguments[0], arguments[arguments.length - 1]];
-fetch(url).then(r => r.ok ? r.text() : Promise.reject(r.status)).then(h => {
-  const d = new DOMParser().parseFromString(h, 'text/html');
-  done([...new Set([...d.querySelectorAll(arguments[1])].map(a => a.href))]);
-}).catch(e => done({hata: String(e)}));
+# tam sayfa açmaya göre çok daha hızlıdır. İstekler tek tek ve RateLimiter'ın
+# belirlediği hızda gönderilir.
+FETCH_JS = r"""
+const [url, mode, linkSel, nameSel, ingSel, done] = arguments;
+fetch(url).then(async r => {
+  if (!r.ok) return done({status: r.status});
+  const d = new DOMParser().parseFromString(await r.text(), 'text/html');
+  if (mode === 'list') {
+    return done({status: 200, links: [...new Set([...d.querySelectorAll(linkSel)].map(a => a.href))]});
+  }
+  const h = d.querySelector(nameSel);
+  const ing = [...d.querySelectorAll(ingSel)].map(li => li.textContent.trim()).filter(Boolean);
+  done({status: 200, isim: h ? h.textContent.trim() : '', malzemeler: ing});
+}).catch(e => done({status: 0, hata: String(e)}));
 """
 
-RECIPES_JS = r"""
-const [urls, conc, nameSel, ingSel, done] = arguments;
-const parse = (html) => {
-  const d = new DOMParser().parseFromString(html, 'text/html');
-  const h = d.querySelector(nameSel);
-  if (!h) return null;
-  const ing = [...d.querySelectorAll(ingSel)].map(li => li.textContent.trim()).filter(Boolean);
-  return {isim: h.textContent.trim(), malzemeler: ing};
-};
-const out = new Array(urls.length); let i = 0;
-async function worker() {
-  while (i < urls.length) {
-    const k = i++;
-    try {
-      const r = await fetch(urls[k]);
-      out[k] = r.ok ? parse(await r.text()) : {hata: r.status};
-    } catch (e) { out[k] = {hata: String(e)}; }
-  }
-}
-Promise.all(Array.from({length: conc}, worker)).then(() => done(out));
-"""
+BLOCK_CODES = {0, 403, 429, 500, 502, 503, 504, 520, 521, 522, 524}
+
+
+class RateLimiter:
+    """Sitenin kabul ettiği hıza kendini ayarlar.
+
+    Başarılı istekler arttıkça aralığı yavaşça kısaltır; 403/429 gibi
+    "yavaşla" yanıtlarında aralığı ikiye katlar, arka arkaya gelirse
+    birkaç dakika (en fazla 30 dk) tamamen durur.
+    """
+
+    def __init__(self, gap=3.0, min_gap=0.7, max_gap=30.0):
+        self.gap, self.min_gap, self.max_gap = gap, min_gap, max_gap
+        self.lock = threading.Lock()
+        self.next_time = 0.0
+        self.ok_streak = 0
+        self.block_streak = 0
+        self.cooldown = 300
+        self.stats = {"ok": 0, "blocked": 0}
+
+    def wait(self):
+        with self.lock:
+            now = time.time()
+            if self.next_time > now:
+                time.sleep(self.next_time - now)
+            self.next_time = time.time() + self.gap
+
+    def success(self):
+        with self.lock:
+            self.stats["ok"] += 1
+            self.block_streak = 0
+            self.ok_streak += 1
+            if self.ok_streak >= 40:
+                self.ok_streak = 0
+                self.gap = max(self.min_gap, self.gap * 0.9)
+                self.cooldown = max(300, self.cooldown // 2)
+
+    def blocked(self):
+        with self.lock:
+            self.stats["blocked"] += 1
+            self.ok_streak = 0
+            self.block_streak += 1
+            self.gap = min(self.max_gap, self.gap * 2)
+            if self.block_streak >= 3:
+                pause = self.cooldown
+                self.cooldown = min(1800, self.cooldown * 2)
+                self.block_streak = 0
+                print(f"  .. site yavaşlamamızı istiyor, {pause // 60} dk ara veriliyor "
+                      f"(aralık {self.gap:.1f} sn)", flush=True)
+                self.next_time = time.time() + pause
+
+
+limiter = RateLimiter()
+
 
 DATA_DIR = "veri"          # ham veri (JSONL) + ilerleme
 EXPORT_DIR = "tarifler"    # pushlanacak JSON parçaları
@@ -188,41 +228,61 @@ def detect_page_count(driver, category: str) -> int:
     return max(pages)
 
 
+def polite_fetch(driver, url: str, mode: str, max_tries: int = 10):
+    """Bir URL'yi hız sınırına uyarak indirir. Yanıt sözlüğü ya da None döner."""
+    for _ in range(max_tries):
+        limiter.wait()
+        r = driver.execute_async_script(
+            FETCH_JS, url, mode, CARD_LINK_SELECTOR, RECIPE_NAME_SELECTOR, INGREDIENT_SELECTOR)
+        status = r.get("status")
+        if status == 200:
+            limiter.success()
+            return r
+        if status in BLOCK_CODES:
+            limiter.blocked()
+            continue
+        return r  # 404 vb.: kalıcı, tekrar denemeye gerek yok
+    return None
+
+
 def scrape_category_page(category: str, page: int, seen: set, seen_lock, args, headless: bool):
-    """Bir kategori sayfasındaki tüm tarifleri çeker. Başarılıysa tarif listesi döner."""
+    """Bir kategori sayfasındaki tüm tarifleri çeker.
+
+    Sayfadaki her tarif alınabildiyse tarif listesi döner; alınamayan varsa
+    None döner ve sayfa sonraki turda baştan denenir (veri kaybı olmaz).
+    """
     worker = current_worker(headless)
     for attempt in range(3):
+        claimed = []
         try:
             driver = worker.get()
-            links = driver.execute_async_script(LIST_JS, category_page_url(category, page), CARD_LINK_SELECTOR)
-            if isinstance(links, dict):  # fetch hatası
-                raise WebDriverException(f"liste alınamadı: {links.get('hata')}")
-            links = [l for l in links if l.startswith(BASE_URL) and "/video/" not in l]
+            listing = polite_fetch(driver, category_page_url(category, page), "list")
+            if listing is None:
+                return None
+            if listing.get("status") != 200:
+                return []  # sayfa yok: tamamlanmış say
+            links = [l for l in listing["links"] if l.startswith(BASE_URL) and "/video/" not in l]
             with seen_lock:
-                links = [l for l in links if l not in seen]
-                seen.update(links)
+                claimed = [l for l in links if l not in seen]
+                seen.update(claimed)
 
-            results = driver.execute_async_script(
-                RECIPES_JS, links, args.concurrency, RECIPE_NAME_SELECTOR, INGREDIENT_SELECTOR)
-            recipes, failed = [], 0
-            for url, r in zip(links, results):
-                if r and "isim" in r and r["malzemeler"]:
+            recipes = []
+            for url in claimed:
+                r = polite_fetch(driver, url, "recipe")
+                if r is None:
+                    raise RuntimeError(f"{url} alınamadı")
+                if r.get("status") == 200 and r.get("isim") and r.get("malzemeler"):
                     recipes.append({"isim": r["isim"], "malzemeler": r["malzemeler"],
                                     "url": url, "kategori": category})
-                elif r and "hata" in r:
-                    failed += 1
-            if links and failed > len(links) // 2:  # site yavaşlattı/engelledi: bekle, tekrar dene
-                with seen_lock:
-                    seen.difference_update(links)
-                raise WebDriverException(f"{failed}/{len(links)} tarif alınamadı")
             worker.pages_done += 1
-            time.sleep(args.delay)
             return recipes
-        except Exception as e:  # tarayıcı çökmesi vb. her hatada tarayıcıyı yenile
-            print(f"  ! {category} s.{page} hata ({str(e).strip()[:80]}), tekrar deneniyor")
+        except Exception as e:  # tarayıcı çökmesi vb.
+            with seen_lock:
+                seen.difference_update(claimed)  # alınamayanlar sonra tekrar denensin
+            print(f"  ! {category} s.{page} hata ({str(e).strip()[:80]}), tekrar deneniyor", flush=True)
             worker.reset()
-            time.sleep(10 * (attempt + 1))
-    return None  # başarısız: ilerlemeye yazılmaz, sonraki çalıştırmada tekrar denenir
+            time.sleep(30 * (attempt + 1))
+    return None
 
 
 # --------------------------------------------------------------------------- ilerleme
@@ -307,7 +367,8 @@ def run(args):
                         save_progress(progress)
                         rate = (time.time() - started) / i
                         eta_h = rate * (len(todo) - i) / 3600
-                        print(f"  sayfa {page} ✓ {len(recipes)} tarif | {i}/{len(todo)} | kalan ~{eta_h:.1f} saat")
+                        print(f"  sayfa {page} ✓ {len(recipes)} tarif | {i}/{len(todo)} | aralık {limiter.gap:.1f} sn | "
+                              f"engel {limiter.stats['blocked']} | kalan ~{eta_h:.1f} saat", flush=True)
     except KeyboardInterrupt:
         print("\nDurduruldu. Tekrar çalıştırınca kaldığı yerden devam eder.")
         return 130
@@ -414,14 +475,15 @@ def main():
                         help="Kategori slug'ları (ör. corba-tarifleri tatli-tarifleri)")
     parser.add_argument("--max-pages", type=int, default=0,
                         help="Kategori başına en fazla sayfa (0 = tüm sayfalar, otomatik bulunur)")
-    parser.add_argument("--workers", type=int, default=2, help="Paralel tarayıcı sayısı")
-    parser.add_argument("--concurrency", type=int, default=4,
-                        help="Her tarayıcıda aynı anda indirilen tarif sayısı")
-    parser.add_argument("--delay", type=float, default=1.0, help="Her kategori sayfasından sonra bekleme (sn)")
+    parser.add_argument("--workers", type=int, default=1,
+                        help="Paralel tarayıcı sayısı (hız sınırı hepsi için ortaktır)")
+    parser.add_argument("--min-gap", type=float, default=0.7,
+                        help="İstekler arası en kısa bekleme (sn); bot bundan hızlı gitmez")
     parser.add_argument("--no-headless", action="store_true", help="Tarayıcıyı görünür aç")
     parser.add_argument("--export", action="store_true", help="Toplanan veriyi JSON parçalarına dönüştür")
     args = parser.parse_args()
 
+    limiter.min_gap = args.min_gap
     sys.exit(export(args) if args.export else run(args))
 
 
