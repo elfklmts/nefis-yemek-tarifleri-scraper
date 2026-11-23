@@ -2,6 +2,13 @@
 
 [nefisyemektarifleri.com](https://www.nefisyemektarifleri.com) üzerindeki tariflerin **isimlerini** ve **malzemelerini** Selenium ile çekip `tarifler.json` dosyasında toplayan bot.
 
+## Önemli: sitenin kuralları
+
+nefisyemektarifleri.com'un `robots.txt` dosyası veri toplama/scraping botlarını açıkça engelliyor
+(`Disallow: /`) ve `Content-Signal: ai-train=no` bildiriyor. Site Cloudflare arkasında ve toplu
+taramayı birkaç yüz istekten sonra engelliyor. Bu bot küçük ölçekli, eğitim amaçlı denemeler içindir;
+siteyi toplu kopyalamak için kullanmayın, engellemeyi aşmaya çalışmayın.
+
 ## Kurulum
 
 ```bash

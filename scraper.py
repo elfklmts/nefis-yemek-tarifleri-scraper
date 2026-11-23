@@ -166,7 +166,7 @@ class Worker:
             self.driver = create_driver(self.headless)
             self.pages_done = 0
             try:
-                self.driver.get(BASE_URL + "/iletisim/")  # hafif bir site sayfası
+                self.driver.get(BASE_URL + "/")  # ana sayfa (robots.txt /iletisim/ sayfasını yasaklıyor)
             except TimeoutException:
                 pass
         return self.driver
